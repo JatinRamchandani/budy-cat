@@ -107,6 +107,18 @@ def parse_correct_answer(btn_group):
     return None, None, True
 
 
+def fix_mojibake(text):
+    """Fix double-encoded UTF-8 (mojibake). Safe for all inputs:
+    - ASCII → unchanged
+    - Real Unicode → encode('latin-1') fails → return original
+    - Double-encoded UTF-8 → fixed to correct characters
+    """
+    try:
+        return text.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+
+
 def fix_image_urls(html_str, base_url):
     """Rewrite relative figa/ image src to absolute CDN URLs."""
     if not base_url:
@@ -122,8 +134,10 @@ def fix_image_urls(html_str, base_url):
 def parse_html_file(filepath):
     meta = get_file_metadata(filepath)
 
-    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
-        content = f.read()
+    with open(filepath, "rb") as f:
+        raw = f.read()
+    content = raw.decode("utf-8", errors="replace")
+    content = fix_mojibake(content)
 
     soup = BeautifulSoup(content, "html.parser")
 

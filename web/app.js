@@ -420,9 +420,9 @@ function buildTestShell() {
         <span id="test-ans-count" class="text-sm text-muted">0 answered</span>
       </div>
       ${noTimer
-        ? `<span class="badge badge-blue">Practice Mode — No Timer</span>`
+        ? `<span class="badge badge-blue" style="white-space:nowrap">No Timer</span>`
         : `<div class="test-timer" id="test-timer">${fmt(t.timeRemaining)}</div>`}
-      <div><button class="btn btn-danger btn-sm" onclick="App.confirmEndTest()">End Test</button></div>
+      <div><button class="btn btn-danger btn-sm" onclick="App.confirmEndTest()">End</button></div>
     </div>
 
     <div class="test-progress-bar">
@@ -440,7 +440,10 @@ function buildTestShell() {
         </div>
       </div>
       <div class="test-main" id="test-main"></div>
-    </div>`;
+    </div>
+
+    <!-- Mobile-only bottom question strip -->
+    <div class="mobile-q-strip" id="mobile-q-strip"></div>`;
 }
 
 function renderQuestion() {
@@ -564,10 +567,9 @@ function renderQuestion() {
 }
 
 function renderQGrid() {
-  const grid = $('q-grid');
-  if (!grid || !S.test) return;
   const t = S.test;
-  grid.innerHTML = t.questions.map((q,i) => {
+  if (!t) return;
+  const dotsHtml = t.questions.map((q,i) => {
     const a = t.answers[q.id];
     const answered = a.selected !== null && a.selected !== '';
     let cls = 'q-dot';
@@ -576,6 +578,18 @@ function renderQGrid() {
     if (a.flagged)        cls += ' flagged';
     return `<div class="${cls}" onclick="App.goTo(${i})" title="Q${i+1}">${i+1}</div>`;
   }).join('');
+
+  const grid = $('q-grid');
+  if (grid) grid.innerHTML = dotsHtml;
+
+  // Mobile strip — horizontal scroll row of dots
+  const strip = $('mobile-q-strip');
+  if (strip) {
+    strip.innerHTML = dotsHtml;
+    // Scroll active dot into view
+    const activeDot = strip.children[t.current];
+    if (activeDot) activeDot.scrollIntoView({ inline: 'center', behavior: 'smooth' });
+  }
 }
 
 function updateAnsweredCount() {
