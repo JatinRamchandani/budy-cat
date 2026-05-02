@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAT Prep — Topic-Wise Practice</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] },
+      startup: { typeset: false }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async id="MathJax-script"></script>
+</head>
+<body>
+<div id="app">
+
+  <!-- ── Navigation ── -->
+  <nav id="nav">
+    <div class="nav-brand" onclick="App.navigate('home')">
+      <span class="brand-icon">📚</span>
+      <span>CAT <span class="brand-accent">Prep</span></span>
+    </div>
+    <div class="nav-links">
+      <a class="nav-link" id="nav-home"   onclick="App.navigate('home')">Home</a>
+      <a class="nav-link" id="nav-browse" onclick="App.navigate('browse')">Browse Topics</a>
+    </div>
+  </nav>
+
+  <!-- ── Views ── -->
+  <div id="view-home"    class="view hidden"></div>
+  <div id="view-browse"  class="view hidden"></div>
+  <div id="view-setup"   class="view hidden"></div>
+  <div id="view-test"    class="view hidden"></div>
+  <div id="view-results" class="view hidden"></div>
+
+  <!-- ── Selection bar (Browse) ── -->
+  <div id="selection-bar" class="selection-bar">
+    <div class="selection-bar-info">
+      <strong id="sel-count">0</strong> topic(s) selected —
+      <span id="sel-qcount">0</span> questions
+    </div>
+    <div style="display:flex;gap:.5rem">
+      <button class="btn btn-secondary btn-sm" onclick="App.clearSelection()">Clear</button>
+      <button class="btn btn-orange btn-sm" onclick="App.navigate('setup')">Configure Test →</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── Modal ── -->
+<div id="modal-overlay" class="modal-overlay hidden">
+  <div class="modal">
+    <h3 id="modal-title"></h3>
+    <p  id="modal-message"></p>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="App.closeModal()">Cancel</button>
+      <button id="modal-confirm" class="btn btn-danger">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

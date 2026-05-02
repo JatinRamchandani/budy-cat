@@ -1,0 +1,1632 @@
+ <!doctype html>
+ <html dir=ltr lang=en>
+
+ <head>
+     <meta charset=utf-8>
+     <meta content="Detailed Text and Vedio Solutions for CAT 2022 VARC Slot 3" name=description>
+     <meta content="IE=edge" http-equiv=X-UA-Compatible>
+     <meta content="width=device-width,initial-scale=1" name=viewport>
+     <title>CAT 2022 Question Paper - Slot 3, 2IIM
+         CAT 2024 Online CAT Coaching, CAT Preparation Online | 2IIM CAT Coaching Online
+     </title>
+     <link rel="stylesheet" href="/newcss/style-ques-critical.css" type="text/css" />
+<!-- Favicons and Apple touch icons
+    ====================================== -->
+<link rel="manifest" href="/manifest.json">    
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta content="2IIM Online CAT Coaching" name=application-name>
+<meta content="2IIM Online CAT Coaching" name=apple-mobile-web-app-title>
+<meta name="theme-color" content="#8B0000">
+<meta name="msapplication-navbutton-color" content="#8B0000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/touch/icon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="apple-touch-icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- styles embedded for above the fold quick load -->
+<style>
+.wrapper{padding:0 16px;}
+.container{padding:0.01em 24px;}
+#cssmenu {
+	position: relative;
+	/*top: 100px;*/
+	margin: auto;
+	}
+/*  SECTIONS - Grid System  */
+.section {clear: both;padding: 0px;margin: 0px;}
+
+/*  COLUMN SETUP  */
+.col {display: block;float:left;margin: 1% 0 1% 1.6%;}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {width: 100%;}
+.span_1_of_2 {width: 49.2%;}
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }    
+/*  GRID OF FOUR  */
+.span_4_of_4 {width: 100%;}
+.span_3_of_4 {width: 74.6%;}
+.span_2_of_4 {width: 49.2%;}
+.span_1_of_4 {width: 23.8%;}
+/*  GRID OF FIVE  */
+.span_5_of_5 {width: 100%;}
+.span_4_of_5 {width: 79.68%;}
+.span_3_of_5 {width: 59.36%;}
+.span_2_of_5 {width: 39.04%;}
+.span_1_of_5 {width: 18.72%;}
+/*  Grid System GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5, .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; }
+    #topright{display: none;}    
+    .wrapper{padding:0px;}
+    #logo{max-width:80%; height:auto;}
+    #botlogo{max-width:80%; height:auto;padding-right:0px;border-right:none;}
+}    
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_1_of_4, .span_1_of_3, .span_1_of_2 { width:49%; }
+    .wrapper{padding:0 6px;}
+}
+@media screen and (max-width: 48rem) {
+  .container .col {
+    width: 95%;
+  }
+}
+</style>
+
+<script>
+        function loadCss(filename) {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = filename
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        function cb() {
+            loadCss('/newcss/style-ques-noncritical.css');            
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+     <link href="https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-3-VARC/" rel=canonical>
+     <script type=application/ld+json>
+         {
+             "@context": "http://schema.org",
+             "@type": "WebPage",
+             "mainEntityOfPage": "https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-3-VARC/",
+             "headline": "CAT Questions | CAT VA RC |  CAT VA RC 2022 Slot 3 Questions  ",
+             "datePublished": "2022-12-07T12:02:41Z",
+             "dateModified": "2022-12-07T12:02:41Z",
+             "description": "CAT questions from VA RC | Verbal Ability for CAT. Reading Comprehension for CAT. CAT Questions from VARC are available in 2IIMs free CAT Questions Online. 2IIM offers online CAT coaching for CAT and conducts CAT Coaching in Chennai. CAT questions with videos. Reading Comprehension questions for CAT, Verbal Ability questions for CAT.",
+             "author": {
+                 "@type": "Person",
+                 "name": "Rajesh Balasubramanian"
+             },
+             "publisher": {
+                 "@type": "Organization",
+                 "name": "2IIM Online CAT Coaching",
+                 "logo": {
+                     "@type": "ImageObject",
+                     "url": "https://online.2iim.com/images/dark-logo.png",
+                     "width": 180,
+                     "height": 80
+                 }
+             },
+             "image": {
+                 "@type": "ImageObject",
+                 "url": "https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-3-VARC/figa/OG/index.jpg",
+                 "height": 1200,
+                 "width": 627
+             },
+             "audience": {
+                 "@type": "EducationalAudience",
+                 "educationalRole": "Online CAT Coaching"
+             }
+         }
+     </script>
+     <script type=application/ld+json>
+         {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement": [{
+                 "@type": "ListItem",
+                 "position": 1,
+                 "name": "HOME",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 2,
+                 "name": "ONLINE CAT COACHING",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 3,
+                 "name": "CAT PREP RESOURCES",
+                 "item": "https://online.2iim.com/CAT-question-paper/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 4,
+                 "name": "CAT PREPARATION APP",
+                 "item": "https://play.google.com/store/apps/details?id=com.learnyst.twoiim&hl=en_IN"
+             }, {
+                 "@type": "ListItem",
+                 "position": 5,
+                 "name": "CAT COACHING",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 6,
+                 "name": "CAT PREPARATION",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 7,
+                 "name": "HOW TO PREPARE FOR CAT EXAM",
+                 "item": "https://online.2iim.com/how-to-prepare-for-cat-exam/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 8,
+                 "name": "BLOGS/SOCIAL",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 9,
+                 "name": "CONTACT",
+                 "item": "https://2iim.com/aboutus.shtml"
+             }]
+         }
+     </script>
+ </head>
+
+ <body>
+     <div class=wrapper>
+         <div class="group section" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="col span_1_of_4"> <a href=//www.2iim.com> <img alt="2IIM CAT Coaching" id=logo src=/figa/2iim-logo.jpg>
+        </a>
+    </div>
+
+    <div>
+        <ul style="list-style: none;">
+            <li> <a href="https://online.2iim.com/CAT-question-paper/">2IIM CAT Question Bank</a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="col span_3_of_4" id=topright>
+        <div style="background-color:#bdb76b;padding:10px 0">
+            <h4  id="Header" class=text-center><a style="color: #000000;"
+                    href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+            </h4>
+
+        </div>
+    </div> -->
+
+</div>
+
+
+
+<div style="background-color:#ed6810;padding:10px 0; margin-top: 5px; margin-bottom: 5px;">
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+        href="https://learn.2iim.com/learn/2IIM-Scholarship-test">
+      â³All India Scholarship Test â Unlock up to 100% Scholarship.
+    </h4><br> -->
+
+   
+
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+            href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml">&#x1f389;
+           ðGet Up to 100% Scholarship for CAT Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨-Enroll Now</a></h4> -->
+
+    <!-- <h4 class=text-center><a style="color: #000000;" href="https://online.2iim.com/CAT-score-calculator#">
+                &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;</a></h4>  -->
+
+</div>
+
+
+
+
+<div id=cssmenu>
+    <ul>
+        <li><a href=//online.2iim.com>Online CAT Coaching </a>
+            <ul>
+                <li> <a href=https://online.2iim.com>Visit our Website</a> </li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Coaching</a>
+            <ul>
+                <li><a href=https://chennai.2iim.com>CAT Coaching in Chennai</a> </li>
+                <li><a href=https://2iim.com/studymaterial>CAT Preparation Books</a></li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Preparation</a>
+            <ul>
+                <li><a href=https://online.2iim.com/CAT-question-paper>CAT Previous Year Papers</a> </li>
+                <li><a href=https://iim-cat-questions-answers.2iim.com>2IIM's CAT Questions</a> </li>
+                <li><a href=https://online.2iim.com/XAT-question-paper>XAT Previous Year Papers</a> </li>
+                <li><a href=https://online.2iim.com/IIFT-question-paper>IIFT Previous Year Papers</a> </li>
+                <li> <a href=https://online.2iim.com/how-to-prepare-for-cat-exam>How to prepare for CAT exam</a>
+                    <ul>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-Quantitative-Aptitude.shtml>How
+                                to prepare for CAT Quantitative Aptitude</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-DILR.shtml>How
+                                to prepare for CAT DILR Section</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-VARC.shtml>How
+                                to prepare for CAT VARC Section</a> </li>
+                    </ul>
+                </li>
+                <li><a href=https://online.2iim.com/what-is-cat-exam.shtml>What is CAT Exam All about</a></li>
+                <li><a href=https://online.2iim.com/cat-syllabus.shtml>CAT Syllabus</a> </li>
+                <!--                <li><a href=https://online.2iim.com/youtube-cat-live-classes>CAT Online Live Classes</a></li>-->
+                <li><a href=https://gmat.wizako.com>GMAT Preparation Online</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href=https://chennai.2iim.com>Blogs / Social</a> <ul> <li><a href=https://online.2iim.com/cat-exam/blogs>2IIM CAT Preparation Blog</a> </li> <li><a href=https://www.quora.com/What-is-your-review-of-2IIM-Online-CAT-Preparation>2IIM CAT Preparation Reviews</a> </li> <li><a href=https://www.quora.com/profile/Rajesh-Balasubramanian-8>CAT Preparation Quora Answers</a> </li> <li><a href=https://www.youtube.com/2iimcat>CAT Preparation Videos</a> </li> <li><a href=https://www.facebook.com/groups/2iimcat/ >CAT Preparation Facebook Group</a></li> <li><a href=https://www.facebook.com/2iimcat/ >CAT Preparation Facebook Page</a></li> <li><a href=https://online.2iim.com/cat-exam/blogs>CAT Preparation Blogs</a> <ul> <li><a href=https://iimcat.2iim.com/ >CAT Questions Quantitative Aptitude Blog</a></li> <li><a href=https://catscores.2iim.com/ >CAT Preparation Blog</a></li></ul> </li> </ul></li> -->
+        <li><a href=https://2iim.com/aboutus.shtml>Contact </a>
+            <ul>
+                <!--                <li><a ref=https://2iim.com/aboutus.shtml>About Us</a> </li>-->
+                <!--                <li><a href=https://2iim.com/team.shtml>Our Team</a> </li>-->
+                <li><a href=https://online.2iim.com/2IIM-Results>Results</a> </li>
+                <li><a href=https://2iim.com/workforus.shtml>Work for Us</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href="https://learn.2iim.com/signup/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-signup" rel="noopener nofollow noreferrer" target=_blank>Signup</a></li> <li><a href="https://learn.2iim.com/login/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-login" rel="noopener nofollow noreferrer" target=_blank>Login</a></li>-->
+        <li><a href="https://online.2iim.com/online-ipm.shtml" rel="noopener" target=_blank>IPMAT 2026 Coaching
+                Online</a> </li>
+    </ul>
+</div>
+
+<!--Learn from 5 time CAT 100%iler | Best CAT Online Coaching | CAT Preparation-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=headertop&utm_campaign=onlinepage -->
+
+<!-- https://learn.2iim.com/learn/account/signup?segmentId=604&segmentPath=604 -->
+         <header class="container bg-light-orange" style=background-size:cover>
+             <div class="group section">
+                 <div class="col span_3_of_4">
+                     <div style=vertical-align:middle>
+                         <h1 class="black nomargin">CAT 2022 Question Paper | CAT VA RC</h1>
+                         <h6 class=black style="margin:0 0 10px 0">CAT Question Paper | CAT Previous Year Paper</h6>
+                     </div>
+                 </div>
+                 <div class="col span_1_of_4">
+                     <div>
+                         <p class=breadcrumb><a href="https://online.2iim.com/">CAT Online Coaching</a> / <a href="https://online.2iim.com/CAT-question-paper/">CAT Previous Year Paper</a> / <span class="black fw700">CAT 2022 VARC Slot 3</span> </p>
+                     </div>
+                 </div>
+             </div>
+         </header>
+         <div style=clear:both></div>
+         <section class=container>
+             <div class="group section">
+                 <div class="col span_4_of_5">
+                     <p><span class="dropcap">T</span>he best way to improve your <b><a href="https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-VARC.shtml" rel="noopener noreferrer" target="_blank">VARC</a></b> skill is Reading. Read tons of stuff from <b><a href="https://online.2iim.com/cat-exam/blogs/bharaths-curated-reading-list-for-cat-exam/" rel="noopener noreferrer" target="_blank">Bharath's Curated Reading list</a></b> and get a wonderful VARC score.</p>
+
+<ol class="ques ques1">
+
+                       <ol class="ques ques1">
+
+                         <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />As software improves, the people using it become less likely to sharpen their own know-how. Applications that offer lots of prompts and tips are often to blame; simpler, less solicitous programs push people harder to think, act and learn.<br /><br />Ten years ago, information scientists at Utrecht University in the Netherlands had a group of people carry out complicated analytical and planning tasks using either rudimentary software that provided no assistance or sophisticated software that offered a great deal of aid. The researchers found that the people using the simple software developed better strategies, made fewer mistakes and developed a deeper aptitude for the work. The people using the more advanced software, meanwhile, would often "aimlessly click around" when confronted with a tricky problem. The supposedly helpful software actually short-circuited their thinking and learning.<br /><br />[According to] philosopher Hubert Dreyfus . . . . our skills get sharper only through practice, when we use them regularly to overcome different sorts of difficult challenges. The goal of modern software, by contrast, is to ease our way through such challenges. Arduous, painstaking work is exactly what programmers are most eager to automate-after all, that is where the immediate efficiency gains tend to lie. In other words, a fundamental tension ripples between the interests of the people doing the automation and the interests of the people doing the work.<br /><br />Nevertheless, automation's scope continues to widen. With the rise of electronic health records, physicians increasingly rely on software templates to guide them through patient exams. The programs incorporate valuable checklists and alerts, but they also make medicine more routinized and formulaic-and distance doctors from their patients. . . . Harvard Medical School professor Beth Lown, in a 2012 journal article . . . warned that when doctors become "screen-driven," following a computer's prompts rather than "the patient's narrative thread," their thinking can become constricted. In the worst cases, they may miss important diagnostic signals. . . . <br /><br />In a recent paper published in the journal Diagnosis, three medical researchers . . . examined the misdiagnosis of Thomas Eric Duncan, the first person to die of Ebola in the U.S., at Texas Health Presbyterian Hospital Dallas. They argue that the digital templates used by the hospital's clinicians to record patient information probably helped to induce a kind of tunnel vision. "These highly constrained tools," the researchers write, "are optimized for data capture but at the expense of sacrificing their utility for appropriate triage and diagnosis, leading users to miss the forest for the trees." Medical software, they write, is no "replacement for basic history-taking, examination skills, and critical thinking." . . . <br /><br />There is an alternative. In "human-centered automation," the talents of people take precedence. . . . In this model, software plays an essential but secondary role. It takes over routine functions that a human operator has already mastered, issues alerts when unexpected situations arise, provides fresh information that expands the operator's perspective and counters the biases that often distort human thinking. The technology becomes the expert's partner, not the expert's replacement.</p>
+                         <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>From the passage, we can infer that the author is apprehensive about the use of sophisticated automation for all of the following reasons EXCEPT that:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>it stops users from exercising their minds.</li>
+                                           <li>it could mislead people.</li>
+                                           <li>computers could replace humans.</li>
+                                           <li>it stunts the development of its users.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>computers could replace humans.</span></div>
+                                           <!--<a href=verbal-question-1.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-1.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>In the Ebola misdiagnosis case, we can infer that doctors probably missed the forest for the trees because:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>they were led by the data processed by digital templates.</li>
+                                           <li>the digital templates forced them to acquire tunnel vision.</li>
+                                           <li>they used the wrong type of digital templates for the case.</li>
+                                           <li>the data collected were not sufficient for appropriate triage.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>they were led by the data processed by digital templates.</span></div>
+                                           <!--<a href=verbal-question-2.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-2.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>In the context of the passage, all of the following can be considered examples of human-centered automation EXCEPT:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>software that offers interpretations when requested by the human operator.</li>
+                                           <li>software that auto-completes text when the user writes an email.</li>
+                                           <li>medical software that provides optional feedback on the doctor's analysis of the medical situation.</li>
+                                           <li>a smart-home system that changes the temperature as instructed by the resident.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>software that auto-completes text when the user writes an email.</span></div>
+                                           <!--<a href=verbal-question-3.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-3.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>It can be inferred that in the Utrecht University experiment, one group of people was "aimlessly clicking around" because:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>they were hoping that the software would help carry out the tasks.</li>
+                                           <li>they did not have the skill-set to address complicated tasks.</li>
+                                           <li>the other group was carrying out the tasks more efficiently.</li>
+                                           <li>they wanted to avoid making mistakes.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>they were hoping that the software would help carry out the tasks.</span></div>
+                                           <!--<a href=verbal-question-4.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-4.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Nature has all along yielded her flesh to humans. First, we took nature's materials as food, fibers, and shelter. Then we learned to extract raw materials from her biosphere to create our own new synthetic materials. Now Bios is yielding us her mind-we are taking her logic.<br /><br />Clockwork logic-the logic of the machines-will only build simple contraptions. Truly complex systems such as a cell, a meadow, an economy, or a brain (natural or artificial) require a rigorous nontechnological logic. We now see that no logic except bio-logic can assemble a thinking device, or even a workable system of any magnitude.<br /><br />It is an astounding discovery that one can extract the logic of Bios out of biology and have something useful. Although many philosophers in the past have suspected one could abstract the laws of life and apply them elsewhere, it wasn't until the complexity of computers and human-made systems became as complicated as living things, that it was possible to prove this. It's eerie how much of life can be transferred. So far, some of the traits of the living that have successfully been transported to mechanical systems are: self-replication, self-governance, limited self-repair, mild evolution, and partial learning.<br /><br />We have reason to believe yet more can be synthesized and made into something new. Yet at the same time that the logic of Bios is being imported into machines, the logic of Technos is being imported into life. The root of bioengineering is the desire to control the organic long enough to improve it. Domesticated plants and animals are examples of technos-logic applied to life. The wild aromatic root of the Queen Anne's lace weed has been fine-tuned over generations by selective herb gatherers until it has evolved into a sweet carrot of the garden; the udders of wild bovines have been selectively enlarged in a "unnatural" way to satisfy humans rather than calves. Milk cows and carrots, therefore, are human inventions as much as steam engines and gunpowder are. But milk cows and carrots are more indicative of the kind of inventions humans will make in the future: products that are grown rather than manufactured.<br /><br />Genetic engineering is precisely what cattle breeders do when they select better strains of Holsteins, only bioengineers employ more precise and powerful control. While carrot and milk cow breeders had to rely on diffuse organic evolution, modern genetic engineers can use directed artificial evolution-purposeful design-which greatly accelerates improvements.<br /><br />The overlap of the mechanical and the lifelike increases year by year. Part of this bionic convergence is a matter of words. The meanings of "mechanical" and "life" are both stretching until all complicated things can be perceived as machines, and all self-sustaining machines can be perceived as alive. Yet beyond semantics, two concrete trends are happening: (1) Human-made things are behaving more lifelike, and (2) Life is becoming more engineered. The apparent veil between the organic and the manufactured has crumpled to reveal that the two really are, and have always been, of one being.</p>
+                           <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The author claims that, "Part of this bionic convergence is a matter of words". Which one of the following statements best expresses the point being made by the author?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>"Bios" and "Technos" are both convergent forms of logic, but they generate meanings about the world that are mutually exclusive.</li>
+                                           <li>A bionic convergence indicates the meeting ground of genetic engineering and artificial intelligence.</li>
+                                           <li>"Mechanical" and "life" are words from different logical systems and are, therefore, fundamentally incompatible in meaning.</li>
+                                           <li>"Mechanical" and "life" were earlier seen as opposite in meaning, but the difference between the two is increasingly blurred.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>"Mechanical" and "life" were earlier seen as opposite in meaning, but the difference between the two is increasingly blurred.</span></div>
+                                           <!--<a href=verbal-question-5.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-5.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>Which one of the following sets of words/phrases best serves as keywords to the passage?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Complex systems; Carrots; Milk cows; Convergence; Technos-logic</li>
+                                           <li>Nature; Bios; Technos; Self-repair; Holsteins</li>
+                                           <li>Nature; Computers; Carrots; Milk cows; Genetic engineering</li>
+                                           <li>Complex systems; Bio-logic; Bioengineering; Technos-logic; Convergence</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Complex systems; Bio-logic; Bioengineering; Technos-logic; Convergence</span></div>
+                                           <!--<a href=verbal-question-6.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-6.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>None of the following statements is implied by the arguments of the passage, EXCEPT:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>purposeful design represents the pinnacle of scientific expertise in the service of human betterment and civilisational progress.</li>
+                                           <li>the biological realm is as complex as the mechanical one; which is why the logic of Bios is being imported into machines.</li>
+                                           <li>genetic engineers and bioengineers are the same insofar as they both seek to force evolution in an artificial way.</li>
+                                           <li>historically, philosophers have known that the laws of life can be abstracted and applied elsewhere.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>genetic engineers and bioengineers are the same insofar as they both seek to force evolution in an artificial way.</span></div>
+                                           <!--<a href=verbal-question-7.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-7.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The author claims that, "The apparent veil between the organic and the manufactured has crumpled to reveal that the two really are, and have always been, of one being." Which one of the following statements best expresses the point being made by the author here?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Scientific advances are making it increasingly difficult to distinguish between organic reality and manufactured reality.</li>
+                                           <li>Apparent reality and organic reality are distinguished by the fact that the former is manufactured.</li>
+                                           <li>Organic reality has crumpled under the veil of manufacturing, rendering the apparent and the real as the same being.</li>
+                                           <li>The crumpling of the organic veil between apparent and manufactured reality reveals them to have the same being.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Scientific advances are making it increasingly difficult to distinguish between organic reality and manufactured reality.</span></div>
+                                           <!--<a href=verbal-question-8.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-8.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Interpretations of the Indian past . . . were inevitably influenced by colonial concerns and interests, and also by prevalent European ideas about history, civilization and the Orient. Orientalist scholars studied the languages and the texts with selected Indian scholars, but made little attempt to understand the world-view of those who were teaching them. The readings therefore are something of a disjuncture from the traditional ways of looking at the Indian past. . . .  <br /><br />Orientalism [which we can understand broadly as Western perceptions of the Orient] fuelled the fantasy and the freedom sought by European Romanticism, particularly in its opposition to the more disciplined Neo-Classicism. The cultures of Asia were seen as bringing a new Romantic paradigm. Another Renaissance was anticipated through an acquaintance with the Orient, and this, it was thought, would be different from the earlier Greek Renaissance. It was believed that this Oriental Renaissance would liberate European thought and literature from the increasing focus on discipline and rationality that had followed from the earlier Enlightenment. . . . [The Romantic English poets, Wordsworth and Coleridge,] were apprehensive of the changes introduced by industrialization and turned to nature and to fantasies of the Orient. <br /><br />However, this enthusiasm gradually changed, to conform with the emphasis later in the nineteenth century on the innate superiority of European civilization. Oriental civilizations were now seen as having once been great but currently in decline. The various phases of Orientalism tended to mould European understanding of the Indian past into a particular pattern. . . . There was an attempt to formulate Indian culture as uniform, such formulations being derived from texts that were given priority. The so-called 'discovery' of India was largely through selected literature in Sanskrit. This interpretation tended to emphasize non-historical aspects of Indian culture, for example the idea of an unchanging continuity of society and religion over 3,000 years; and it was believed that the Indian pattern of life was so concerned with metaphysics and the subtleties of religious belief that little attention was given to the more tangible aspects. <br /><br />German Romanticism endorsed this image of India, and it became the mystic land for many Europeans, where even the most ordinary actions were imbued with a complex symbolism. This was the genesis of the idea of the spiritual east, and also, incidentally, the refuge of European intellectuals seeking to distance themselves from the changing patterns of their own societies. A dichotomy in values was maintained, Indian values being described as 'spiritual' and European values as 'materialistic', with little attempt to juxtapose these values with the reality of Indian society. This theme has been even more firmly endorsed by a section of Indian opinion during the last hundred years.<br /><br />It was a consolation to the Indian intelligentsia for its perceived inability to counter the technical superiority of the west, a superiority viewed as having enabled Europe to colonize Asia and other parts of the world. At the height of anti-colonial nationalism it acted as a salve for having been made a colony of Britain.</p>
+                           <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>It can be inferred from the passage that to gain a more accurate view of a nation's history and culture, scholars should do all of the following EXCEPT:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>develop an oppositional framework to grasp cultural differences.</li>
+                                           <li>examine the complex reality of that nation's society.</li>
+                                           <li>read widely in the country's literature.</li>
+                                           <li>examine their own beliefs and biases.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>develop an oppositional framework to grasp cultural differences.</span></div>
+                                           <!--<a href=verbal-question-9.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-9.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>It can be inferred from the passage that the author is not likely to support the view that:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>the Orientalist view of Asia fired the imagination of some Western poets.</li>
+                                           <li>Indian culture acknowledges the material aspects of life.</li>
+                                           <li>India's culture has evolved over the centuries.</li>
+                                           <li>India became a colony although it matched the technical knowledge of the West.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>India became a colony although it matched the technical knowledge of the West.</span></div>
+                                           <!--<a href=verbal-question-10.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-10.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>Which one of the following styles of research is most similar to the Orientalist scholars' method of understanding Indian history and culture?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Reading about the life of early American settlers and later waves of migration to understand the evolution of American culture.</li>
+                                           <li>Reading 18<sup>th</sup> century accounts by travellers to India to see how they viewed Indian life and culture of the time.</li>
+                                           <li>Studying artefacts excavated at a palace to understand the lifestyle of those who lived there.</li>
+                                           <li>Analysing Hollywood action movies that depict violence and sex to understand contemporary America.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Analysing Hollywood action movies that depict violence and sex to understand contemporary America.</span></div>
+                                           <!--<a href=verbal-question-11.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-11.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>In the context of the passage, all of the following statements are true EXCEPT:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Orientalist scholarship influenced Indians.</li>
+                                           <li>Indian texts influenced Orientalist scholars.</li>
+                                           <li>India's spiritualism served as a salve for European colonisers.</li>
+                                           <li>Orientalists' understanding of Indian history was linked to colonial concerns.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>India's spiritualism served as a salve for European colonisers.</span></div>
+                                           <!--<a href=verbal-question-12.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-12.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Sociologists working in the Chicago School tradition have focused on how rapid or dramatic social change causes increases in crime. Just as Durkheim, Marx, Toennies, and other European sociologists thought that the rapid changes produced by industrialization and urbanization produced crime and disorder, so too did the Chicago School theorists. The location of the University of Chicago provided an excellent opportunity for Park, Burgess, and McKenzie to study the social ecology of the city. Shaw and McKay found . . . that areas of the city characterized by high levels of social disorganization had higher rates of crime and delinquency.<br /><br />In the 1920s and 1930s Chicago, like many American cities, experienced considerable immigration. Rapid population growth is a disorganizing influence, but growth resulting from in-migration of very different people is particularly disruptive. Chicago's in-migrants were both native-born whites and blacks from rural areas and small towns, and foreign immigrants. The heavy industry of cities like Chicago, Detroit, and Pittsburgh drew those seeking opportunities and new lives. Farmers and villagers from America's hinterland, like their European cousins of whom Durkheim wrote, moved in large numbers into cities. At the start of the twentieth century, Americans were predominately a rural population, but by the century's mid-point most lived in urban areas. The social lives of these migrants, as well as those already living in the cities they moved to, were disrupted by the differences between urban and rural life. According to social disorganization theory, until the social ecology of the ''new place'' can adapt, this rapid change is a criminogenic influence. But most rural migrants, and even many of the foreign immigrants to the city, looked like and eventually spoke the same language as the natives of the cities into which they moved. These similarities allowed for more rapid social integration for these migrants than was the case for African Americans and most foreign immigrants.<br /><br />In these same decades America experienced what has been called ''the great migration'': the massive movement of African Americans out of the rural South and into northern (and some southern) cities. The scale of this migration is one of the most dramatic in human history. These migrants, unlike their white counterparts, were not integrated into the cities they now called home. In fact, most American cities at the end of the twentieth century were characterized by high levels of racial residential segregation . . . Failure to integrate these migrants, coupled with other forces of social disorganization such as crowding, poverty, and illness, caused crime rates to climb in the cities, particularly in the segregated wards and neighborhoods where the migrants were forced to live.<br /><br />Foreign immigrants during this period did not look as dramatically different from the rest of the population as blacks did, but the migrants from eastern and southern Europe who came to American cities did not speak English, and were frequently Catholic, while the native born were mostly Protestant. The combination of rapid population growth with the diversity of those moving into the cities created what the Chicago School sociologists called social disorganization.</p>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>A fundamental conclusion by the author is that:</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>the best circumstances for crime to flourish are when there are severe racial disparities.</li>
+                                           <li>to prevent crime, it is important to maintain social order through maintaining social segregation.</li>
+                                           <li>according to European sociologists, crime in America is mainly in Chicago.</li>
+                                           <li>rapid population growth and demographic diversity give rise to social disorganisation that can feed the growth of crime.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>rapid population growth and demographic diversity give rise to social disorganisation that can feed the growth of crime.</span></div>
+                                           <!--<a href=verbal-question-13.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-13.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The author notes that, "At the start of the twentieth century, Americans were predominately a rural population, but by the century's mid-point most lived in urban areas." Which one of the following statements, if true, does not contradict this statement?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Demographic transition in America in the twentieth century is strongly marked by an out-migration from rural areas.</li>
+                                           <li>A population census conducted in 1952 showed that more Americans lived in rural areas than in urban ones.</li>
+                                           <li>The estimation of per capita income in America in the mid-twentieth century primarily required data from rural areas.</li>
+                                           <li>Economists have found that throughout the twentieth century, the size of the labour force in America has always been largest in rural areas.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Demographic transition in America in the twentieth century is strongly marked by an out-migration from rural areas.</span></div>
+                                           <!--<a href=verbal-question-14.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-14.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>Which one of the following is not a valid inference from the passage?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>The failure to integrate in-migrants, along with social problems like poverty, was a significant reason for the rise in crime in American cities.</li>
+                                           <li>According to social disorganisation theory, fast-paced social change provides fertile ground for the rapid growth of crime.</li>
+                                           <li>The differences between urban and rural lifestyles were crucial factors in the disruption experienced by migrants to American cities.</li>
+                                           <li>According to social disorganisation theory, the social integration of African American migrants into Chicago was slower because they were less organised.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>According to social disorganisation theory, the social integration of African American migrants into Chicago was slower because they were less organised.</span></div>
+                                           <!--<a href=verbal-question-15.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-15.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>Which one of the following sets of words/phrases best encapsulates the issues discussed in the passage?</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Durkheim; Marx; Toennies; Shaw</li>
+                                           <li>Chicago School; Native-born Whites; European immigrants; Poverty</li>
+                                           <li>Chicago School; Social organisation; Migration; Crime</li>
+                                           <li>Rapid population growth; Heavy industry; Segregation; Crime</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Chicago School; Social organisation; Migration; Crime</span></div>
+                                           <!--<a href=verbal-question-16.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-16.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br />1.Various industrial sectors including retail, transit systems, enterprises, educational institutions, event organizing, finance, travel etc. have now started leveraging these beacons solutions to track and communicate with their customers. <br />2.A beacon fixed on to a shop wall enables the retailer to assess the proximity of the customer, and come up with a much targeted or personalized communication like offers, discounts and combos on products in each shelf.<br />3.Smart phones or other mobile devices can capture the beacon signals, and distance can be estimated by measuring received signal strength. <br />4.Beacons are tiny and inexpensive, micro-location-based technology devices that can send radio frequency signals and notify nearby Bluetooth devices of their presence and transmit information.</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>4312</span></div>
+                                           <!--<a href=verbal-question-17.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-17.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />"It does seem to me that the job of comedy is to offend, or have the potential to offend, and it cannot be drained of that potential," Rowan Atkinson said of cancel culture. "Every joke has a victim. That's the definition of a joke. Someone or something or an idea is made to look ridiculous." The Netflix star continued, "I think you've got to be very, very careful about saying what you're allowed to make jokes about. You've always got to kick up? Really?" He added, "There are lots of extremely smug and self-satisfied people in what would be deemed lower down in society, who also deserve to be pulled up. In a proper free society, you should be allowed to make jokes about absolutely anything."</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>All jokes target someone and one should be able to joke about anyone in the society, which is inconsistent with cancel culture.</li>
+                                           <li>Victims of jokes must not only be politicians and royalty, but also arrogant people from lower classes should be mentioned by comedians.</li>
+                                           <li>Every joke needs a victim and one needs to include people from lower down the society and not just the upper class.</li>
+                                           <li>Cancel culture does not understand the role and duty of comedians, which is to deride and mock everyone.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>All jokes target someone and one should be able to joke about anyone in the society, which is inconsistent with cancel culture.</span></div>
+                                           <!--<a href=verbal-question-18.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-18.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br /> 1. The more we are able to accept that our achievements are largely out of our control, the easier it becomes to understand that our failures, and those of others, are too. <br />2. But the raft of recent books about the limits of merit is an important correction to the arrogance of contemporary entitlement and an opportunity to reassert the importance of luck, or grace, in our thinking. <br />3. Meritocracy as an organising principle is an inevitable function of a free society, as we are designed to see our achievements as worthy of reward. <br />4. And that in turn should increase our humility and the respect with which we treat our fellow citizens, helping ultimately to build a more compassionate society.</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>3214</span></div>
+                                           <!--<a href=verbal-question-19.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-19.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />Tamsin Blanchard, curator of Fashion Open Studio, an initiative by a campaign group showcasing the work of ethical designers says, "We're all drawn to an exquisite piece of embroidery, a colourful textile or even a style of dressing that might have originated from another heritage. [But] this magpie mentality, where all of culture and history is up for grabs as 'inspiration', has accelerated since the proliferation of social media... Where once a fashion student might research the history and traditions of a particular item of clothing with care and respect, we now have a world where images are lifted from image libraries without a care for their cultural significance. It's easier than ever to steal a motif or a craft technique and transfer it on to a piece of clothing that is either mass produced or appears on a runway without credit or compensation to their original communities."</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Media has encouraged mass production; images are copied effortlessly without care or concern for the interests of ethnic communities.</li>
+                                           <li>Cultural collaboration is the need of the hour. Beautiful design ideas of indigenous people need to be showcased and shared worldwide.</li>
+                                           <li>Taking fashion ideas from any cultural group without their consent is a form of appropriation without giving due credit, compensation, and respect.</li>
+                                           <li>Copying an embroidery design or pattern of textile from native communities who own them is tantamount to stealing and they need to be compensated.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Taking fashion ideas from any cultural group without their consent is a form of appropriation without giving due credit, compensation, and respect.</span></div>
+                                           <!--<a href=verbal-question-20.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-20.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.<br /><br />Sentence: This has meant a lot of uncertainty around what a wide-scale return to office might look like in practice.<br /><br />Paragraph: Bringing workers back to their desks has been a rocky road for employers and employees alike. The evolution of the pandemic has meant that best laid plans have often not materialised. ___(1)___  The flow of workers back into offices has been more of a trickle than a steady stream. ___(2)___ Yet while plenty of companies are still working through their new policies, some employees across the globe are now back at their desks, whether on a full-time or hybrid basis. ___(3)___ That means we're beginning to get some clarity on what return-to-office means - what's working, as well as what has yet to be settled. ___(4)___</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Option 1</li>
+                                           <li>Option 2</li>
+                                           <li>Option 3</li>
+                                           <li>Option 4</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Option 2</span></div>
+                                           <!--<a href=verbal-question-21.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-21.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.<br /><br />Sentence: When people socially learn from each other, they often learn without understanding why what they're copying-the beliefs and behaviours and technologies and know-how-works.<br /><br />Paragraph: ___(1)___. The dual-inheritance theory ....says....that inheritance is itself an evolutionary system. It has variation. What makes us a new kind of animal, and so different and successful as a species, is we rely heavily on social learning, to the point where socially acquired information is effectively a second line of inheritance, the first being our genes.... ___(2)___. People tend to home in on who seems to be the smartest or most successful person around, as well as what everybody seems to be doing-the majority of people have something worth learning. ___(3)___. When you repeat this process over time, you can get, around the world, cultural packages-beliefs or behaviours or technology or other solutions-that are adapted to the local conditions. People have different psychologies, effectively. ___(4)___.</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>Option 1</li>
+                                           <li>Option 2</li>
+                                           <li>Option 3</li>
+                                           <li>Option 4</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Option 2</span></div>
+                                           <!--<a href=verbal-question-22.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-22.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />To defend the sequence of alphabetisation may seem bizarre, so obvious is its application that it is hard to imagine a reference, catalogue or listing without it. But alphabetical order was not an immediate consequence of the alphabet itself. In the Middle Ages, deference for ecclesiastical tradition left scholars reluctant to categorise things according to the alphabet - to do so would be a rejection of the divine order. The rediscovery of the ancient Greek and Roman classics necessitated more efficient ways of ordering, searching and referencing texts. Government bureaucracy in the 16th and 17th centuries quickened the advance of alphabetical order, bringing with it pigeonholes, notebooks and card indexes.</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                           <li>While adoption of the written alphabet was easily accomplished, it took scholars several centuries to accept the alphabetic sequence as a useful tool in their work.</li>
+                                           <li>The alphabetic order took several centuries to gain common currency because of religious beliefs and a lack of appreciation of its efficacy in the ordering of things.</li>
+                                           <li>The ban on the use by scholars of any form of categorisation - but the divinely ordained one - delayed the adoption of the alphabetic sequence by several centuries.</li>
+                                           <li>Unlike the alphabet, once the efficacy of the alphabetic sequence became apparent to scholars and administrators, its use became widespread.</li>
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>The alphabetic order took several centuries to gain common currency because of religious beliefs and a lack of appreciation of its efficacy in the ordering of things.</span></div>
+                                           <!--<a href=verbal-question-23.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-23.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                        <li>
+                               <h4>CAT 2022 Slot 3 - VA RC</h4>
+                               <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br />1. If I wanted to sit indoors and read, or play Sonic the Hedgehog on a red-hot Sega Mega Drive, I would often be made to feel guilty about not going outside to "enjoy it while it lasts".<br />2. My mum, quite reasonably, wanted me and my sister out of the house, in the sun.<br />3. Tales of my mum's idyllic-sounding childhood in the Sussex countryside, where trees were climbed by 8 am and streams navigated by lunchtime, were passed down to us like folklore.<br />4. To an introverted kid, that felt like a threat - and the feeling has stayed with me.</p>
+                               <div class="group section">
+                                   <div class="col span_3_of_4">
+                                       <ol class="choice choice1">
+                                       </ol>
+                                   </div>
+                                   <div class="col span_1_of_4">
+                                       <div class=btn-group>
+                                           <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>2314</span></div>
+                                           <!--<a href=verbal-question-24.shtml><button class=button>Video Explanation</button></a>-->
+                                           <a href=verbal-question-24.shtml><button class=button>Explanation</button></a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <hr>
+                           </li>
+
+
+                     </ol>
+
+
+
+                 </div>
+                 <!-- Add this in the <head> section of your HTML file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="col span_1_of_5">
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+     <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-Scholarship-test">â³All India Scholarship Test â Unlock up to 100% Scholarship.</a>
+        </h6> 
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-Scholarship-test"
+                class="reverse w3-button" rel=noopener target=_blank> â Take the test now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+
+    <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://forms.gle/MAJ2GaoR9zUvoAWy7">â³Register for a free 2IIM demo class and start your
+                preparation the right way.</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://forms.gle/MAJ2GaoR9zUvoAWy7" class="reverse w3-button" rel=noopener
+                target=_blank> â Click here!</a>
+        </p>
+    </div>
+
+
+
+    <div id="flame-button"
+        style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px; overflow: hidden; max-width: 100%;">
+        <a
+            href="https://www.flame.edu.in/register/pg/mba/2026/2iim/?utm_source=2IIM&utm_medium=Weblink&utm_campaign=AY2026-PG-MBA-LP">
+            <img src="https://iim-cat-questions-answers.2iim.com/images/2iim-sponcor.jpg" alt="sponsor"
+                style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+    <!-- <div style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/online-ipm.shtml">Best Indore IPM &amp; Rohtak IPM Coaching<br />Signup
+                and
+                sample 9
+                full classes for free. Register now!</a>
+        </h6>
+        <p style="text-align: center; margin-top: 8px; margin-bottom: 0"></p>
+        <p class="text-center">
+            <a href="https://online.2iim.com/online-ipm.shtml" class="reverse w3-button" rel="noopener"
+                target="_blank">â
+                Signup now</a>
+        </p>
+    </div> -->
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml"> ðGet Up to 100% Scholarship for CAT
+                Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml" class="reverse w3-button"
+                rel=noopener target=_blank> â Enroll Now!</a>
+
+        </p>
+    </div> -->
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025">&#x1f389; Enrol for the 2IIM GDPI course and avail an exclusive discount.</a>
+        </h6>
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025">Master Algebra this weekend â Boost your Quant Percentile ð. ð Sep 13â14 | Online Workshop | â¹1499
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Enroll Now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"> ð¯ CAT VIJAY PATH Step onto the path of victory with up to â¹20,000 OFF on our CAT courses. ð¥ Offer valid till 18th May.</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat-2025?show=all&type=100&categoryCustomName=cat-2025"
+                class="reverse w3-button" rel=noopener target=_blank>Check here!</a></p>
+    </div> -->
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"><a href="https://online.2iim.com/CAT-question-paper-pdf/">Download comprehensive
+                PDFs of past yearsâ question papers with answers.</a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/CAT-question-paper-pdf/" class="reverse w3-button"
+                rel=noopener target=_blank>â Click here</a></p>
+    </div>
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform">Repeating
+                CAT? Ace it with <span style="color: red;">2</span>IIM! Get expert guidance & exclusive discounts.
+                ð</a></h6>
+        <p class=text-center><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform"
+                class="reverse w3-button" rel=noopener target=_blank>â Register Now</a></p>
+    </div> -->
+
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604">Best CAT Online Coaching
+                <br>
+                Try upto 40 hours for free <br> Learn from the best!</a>
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604"
+                class="reverse w3-button" rel=noopener target=_blank> â Sign up Now!</a>
+        </p>
+    </div>
+
+
+
+
+
+
+    <!-- <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://www.welingkar.org/pgdm/?utm_source=2IIM&utm_medium=Banner"><img alt="Welingkar"
+            data-src="https://online.2iim.com/figa/welingkar.png" class="lozad responsive"><noscript><img
+                alt="Welingkar" src=https://online.2iim.com/figa/welingkar.png></noscript>
+    </a> -->
+
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage">CAT
+                Coaching in Chennai<br>CAT 2024</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Classroom Batches Starting Now! @Gopalapuram and @Anna
+            nagar</p>
+        <p class=text-center><a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage"
+                class="reverse w3-button" rel=noopener target=_blank>â CAT Coaching</a></p>
+    </div> -->
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a href=//chennai.2iim.com>Best CAT Coaching in Chennai<br></a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Attend a Demo Class</p>
+        <p class=text-center><a href="https://fermat.viewpage.co/Classroom-Demo" class="reverse w3-button" rel=noopener
+                target=_blank>â Schedule a Demo!</a></p>
+    </div> -->
+
+</div>
+<!-- <img alt="2IIM CAT Online Coaching Classes" data-src="https://online.2iim.com/figa/joey-results.png" class="lozad responsive"><noscript><img alt="2IIM CAT Online Coaching Classes" src=https://online.2iim.com/figa/joey-results.png></noscript>-->
+<!-- <img src="/figa/loading.jpg" alt="Loading" class="responsive">-->
+<!-- <picture class=lozad data-alt="GMAT Online Course Content" data-iesrc=/figa/loading.jpg style=display:block;min-height:1rem;float:left;vertical-align:top;margin-right:20px> <source media="(min-width: 900px)" srcset=/figa/loading.jpg> <source media="(min-width: 480px)" srcset=/figa/loading.jpg> <source media="(min-width: 320px)" srcset=/figa/loading-33.jpg>-->
+<!-- NO img element --> <!-- instead of img element, there will be the last source with the minimum dimensions -->
+<!--</picture>-->
+<!--<a href="https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">&#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now!</a>-->
+<!--<a href="https://learn.2iim.com/learn/2IIM-CAT-Scholarship-2020?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">Upto 50% off - Take the Scholarship test now!</a>-->
+<!--Signup and Sample 9 full classes for Free. Register now!-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=Track-signup-->
+<script>
+    function copyCouponCode() {
+        // Get the coupon code text
+        const couponCode = document.getElementById("couponCode").textContent;
+
+        // Copy the text to the clipboard
+        navigator.clipboard.writeText(couponCode).then(() => {
+            alert("Coupon code copied: " + couponCode);
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+    }
+</script>
+
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAvM49cENMi4iGOt_2-P7yUjLujYOgsDXc",
+        authDomain: "flame-tracker-2.firebaseapp.com",
+        projectId: "flame-tracker-2",
+        storageBucket: "flame-tracker-2.firebasestorage.app",
+        messagingSenderId: "66195899961",
+        appId: "1:66195899961:web:37de6662e15173cb2cefe8",
+        measurementId: "G-KD3F3PVN48"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    // Select all elements with class "sponsor-button"
+    const buttons = document.querySelectorAll(".sponsor-button");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", (e) => {
+            e.preventDefault(); // Stop immediate navigation
+
+            // Log the click event to Firebase Analytics
+            logEvent(analytics, "right_nav_button_click_second", {
+                label: "Flame Sponsor Button"
+            });
+
+            console.log("Button clicked!");
+
+            // Navigate after a short delay so Firebase can log
+            const link = button.querySelector("a").href;
+            setTimeout(() => {
+                window.open(link, "_blank"); // Opens in a new tab
+            }, 200);
+        });
+    });
+</script>
+             </div>
+             <div class="group section"> <div class="col span_1_of_2"> <p class="nomargin text-center"><a ga-event-action=Piverb ga-event-category="Ad Click" ga-on="click,auxclick,contextmenu" href="https://piverb.com/" rel="noopener" target="_blank"> <img src="/figa/piverb.png" alt="PiVerb" class="responsive"></a></p></div> <div class="col span_1_of_2"> <p class="nomargin text-center"><a href="https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml" rel="noopener" target="_blank"> <img src="/figa/wizako.png" alt="Wizako" class="responsive">
+</a></p></div></div>
+             <!-- CAT Question Topics
+		============================================= -->
+<div style=padding:10px;background-color:#eee;background-size:cover>
+	<h2 class=fw600>CAT Questions | CAT Quantitative Aptitude</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/hcf-lcm/>CAT Questions | HCF LCM
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factors/>CAT Questions |
+					Factors</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/remainders/>CAT Questions |
+					Remainders</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factorial/>CAT Questions |
+					Factorials</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/other/>CAT Questions | Digits</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/ratio-mixtures-averages/>CAT
+					Questions | Ratios, Mixtures, Averages</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/percents-profits/>CAT Questions |
+					Percentages, Profit Loss, SICI</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/speed-time-races/>CAT Questions |
+					Time Speed and Distance, Races</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/exponents-logarithms/>CAT Questions
+					| Logarithms & Exponents</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/pipes-cisterns-work-time/>CAT
+					Questions | Pipes Cisterns, Work Time</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/set-theory/>CAT Questions | Set
+					Theory</a></p>
+			<p><a href=/geometry/geometry-triangles/>CAT Questions | Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/co-ordinate-geometry/>CAT Questions |
+					Coordinate-Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/mensuration/>CAT Questions |
+					Mensuration</a></p>
+		</div>
+		<div class="col span_1_of_3">
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/trigonometry/>CAT Questions |
+					Trigonometry</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/linear-quadratic-equations/>CAT
+					Questions | Linear & Quadratic Equations</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/functions/>CAT Questions | Functions</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/inequalities/>CAT Questions |
+					Inequalities</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/polynomials/>CAT Questions |
+					Polynomials</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/progressions/>CAT Questions |
+					Progressions</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/permutation-probability/>CAT Questions |
+					Permutation Combination, Probability</a></p>
+		</div>
+		<div class=clear></div>
+	</div>
+	<!-- <h2 class=fw600>CAT Questions | CAT DILR</h2>
+	<div class="group section">
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_sequences/>CAT DILR | Sequencing </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_Pie_Charts/>CAT DILR | Pie Charts</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_many_graphs/>CAT DILR | Multiple Graphs</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_word_problems/>CAT DILR | Word Problems</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_line_graphs/>CAT DILR | Line Graphs</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_bar_graphs/>CAT DILR | Bar Graphs </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_grid/>CAT DILR | Grid Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_math/>CAT DILR | Math Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_visualisation/>CAT DILR | Visualization</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_other>CAT DILR | Other Patterns</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Assets/>CAT 2017 DILR Slot 2 | Assets
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Funky_Pizzeria/>CAT 2017 DILR Slot 2 |
+					Pizzeria</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Electives/>CAT 2017 DILR Slot 2 |
+					Electives</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Chessboard/>CAT 2017 DILR Slot 2 |
+					Chess</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Dorms/>CAT 2017 DILR Slot 2 |
+					Dorms</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Tea_Tasting/>CAT 2017 DILR Slot 2 |
+					Tea </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Eight_Friends/>CAT 2017 DILR Slot 2 |
+					Friends</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_CET/>CAT 2017 DILR Slot 1 | CET</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Rural_Kids_Survey/>CAT 2017 DILR Slot
+					1 | Survey</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Simple_Happiness_Index/>CAT 2017 DILR
+					Slot 1 | Happiness</a> </p>
+		</div>
+		<div class=clear></div>-->
+	</div>
+	<h2 class=fw600>CAT Questions | Verbal Ability for CAT</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/reading-comprehension/>Verbal Ability for CAT |
+					CAT Reading Comprehension </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-rearrangement/>Verbal Ability for CAT|
+					CAT Para Jumble</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-elimination/>Verbal Ability for CAT |
+					CAT Sentence Elimination </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/paragraph-completion/>Verbal Ability for CAT |
+					CAT Paragraph Completion</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/critical-reasoning/>Verbal Ability for CAT |
+					CAT Critical Reasoning</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/word-usage/>Verbal Ability for CAT | CAT Word
+					Usage </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/para-summary/>Verbal Ability for CAT| CAT Para
+					Summary</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/text-completion/>Verbal Ability for CAT | CAT
+					Text Completion </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-correction/>Verbal Ability for CAT |
+					CAT Sentence Correction</a> </p>
+		</div>
+		<div class=clear></div>
+	</div>
+</div>
+             
+         </section>
+         <div style=clear:both></div>
+         <footer class="white container" style=background-color:#190000;background-size:cover;padding-top:20px>
+    <div class="group section">
+        <div class="col span_1_of_5"> <img alt="2IIM footer logo" class=lozad data-src=/figa/footer-logo.png
+                style="border-right:3px solid #aaa;padding-right:15px" id=botlogo><noscript><img alt="2IIM Footer Logo"
+                    src=/figa/footer-logo.png></noscript> </div>
+        <div class="col span_3_of_5">
+            <p class=nomargin>2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+                2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+                country.</p>
+        </div>
+        <div class="col span_1_of_5">
+            <p> <a href=https://www.facebook.com/groups/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM Online CAT preparation Facebook Group" class=lozad data-src=/figa/svgs/facebook-1.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Facebook Group"
+                            src=/figa/svgs/instagram-icon-3d-render.png></noscript></a> 
+                            <a href=https://www.instagram.com/2iimcatpreparation/ style="background: white;
+    border-radius: 30px;
+    position: absolute;
+    width: 26px;
+    height: 26px;"
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Instagram Page" class=lozad
+                        data-src=/figa/svgs/instagram-icon-3d-render.png style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Instagram" src=/figa/svgs/twitter.svg></noscript></a> <a
+                    href=https://www.quora.com/profile/Rajesh-Balasubramanian-8 rel="noopener noreferrer"
+                    target=_blank><img alt="Rajesh Balasubramanian Quora Profile" class=lozad
+                        data-src=/figa/svgs/quora.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="Rajesh Quora" src=/figa/svgs/quora.svg></noscript></a> <a
+                    href=https://www.youtube.com/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM CAT Youtube Channel" class=lozad data-src=/figa/svgs/youtube-arrow.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Youtube Channel"
+                            src=/figa/svgs/youtube-arrow.svg></noscript></a> <a href=https://2iim.app
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Android App" class=lozad
+                        data-src=/figa/svgs/playstore.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Android App" src=/figa/svgs/playstore.svg></noscript></a> </p>
+        </div>
+    </div>
+    <hr class=nomargin>
+    <div style=clear:both></div>
+    <div class="group section">
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Online Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://2iim.com/CAT-coaching-CAT-classes/"
+                    class=footer-text>LIVE Classroom CAT classes</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com class=footer-text>CAT Online
+                    Coaching</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Quantitative-Aptitude-for-CAT-2022" class=footer-text>CAT
+                    Quantitative Aptitude Course</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Data-Interpretation-and-Logical-reasoning--DI-LR--CAT-2022"
+                    class=footer-text>CAT DILR | Logical Reasoning for CAT</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//chennai.2iim.com class=footer-text>Best CAT Coaching in
+                    Chennai</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href=//iim-cat-questions-answers.2iim.com/
+                    class=footer-text>CAT Questions</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=https://www.youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Youtube</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Question Paper</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Previous Year Papers </a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//2iim.com/studymaterial/ class=footer-text>CAT
+                    Preparation books</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>What is CAT?</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://online.2iim.com/cat-syllabus.shtml"
+                    class=footer-text>CAT Syllabus | CAT Syllabus 2026</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>CAT Exam
+                    Pattern</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>What is CAT
+                    Exam? |</a><a href=# class=footer-text> CAT Exam Eligibility</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>How to
+                    Prepare for CAT exam?</a></p>
+        </div>
+        <div class="col span_1_of_4"> <a href=//youtube.com/2iimcat rel="noopener noreferrer nofollow" target=_blank>
+                <h4 class=white>CAT Preparation | Videos</h4>
+            </a>
+            <p class=nomargin style=padding-bottom:5px><a href=//youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Online Preparation</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://youtu.be/lp3U-zvzGk8?si=bGUSpNwloEBwX_gZ"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>How to Prepare for CAT 2026</a>
+            </p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://www.youtube.com/watch?v=TMbJAD8z2PY"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Do's and
+                    Dont's</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://learn.2iim.com/learn/Live-Online-CAT-2023"
+                    class=footer-text>CAT Online Live Classes</a></p>
+        </div>
+    </div>
+</footer>
+<div style="background-color:#222;background-size:cover;padding:0 20px">
+    <div class="group section">
+        <div class="col span_1_of_2">
+            <p class=copyright>Copyrights Â© All Rights Reserved by 2IIM.com - <a href=https://www.2iim.com
+                    class=copyright rel=noopener target=_blank>A Fermat Education Initiative</a>. <br><a
+                    href=//www.2iim.com/privacy-policy.shtml class=copyright>Privacy Policy</a> | <a
+                    href=//www.2iim.com/terms-conditions.shtml class=copyright>Terms &amp; Conditions</a></p>
+            <hr class=nomargin>
+            <p class=copyright> CAT<sup>Â®</sup> (Common Admission Test) is a registered trademark of the Indian
+                Institutes of Management. This website is not endorsed or approved by IIMs.<br></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>Where is 2IIM located?</h5>
+            <p class="white p15">2IIM Online CAT Coaching<br> A Fermat Education Initiative,<br>19/43, MG Chakrapani St, <br> Sathya Garden, Saligramam, Chennai 600 093</p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>How to reach 2IIM?</h5>
+            <p class="white p15"><strong>Mobile:</strong> <a href=tel:+919962648484 class=white>(91) 99626 48484 / 94459
+                    38484</a><br> <strong>WhatsApp:</strong> <a
+                    href="https://wa.me/919962648484?text=I'm%20interested%20in%20your%20CAT%20Online%20Course"
+                    class=white rel=noopener target=_blank>WhatsApp Now</a><br> <strong>Email: </strong>info@2iim.com
+            </p>
+        </div>
+    </div>
+</div>
+<div style="background-color:#000;background-size:cover;padding:5px 20px">
+    <div class="copyright group section">
+        <div class="col span_1_of_5"> <a href=https://gmat.wizako.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GMAT Preparation</h4>
+            </a>
+            <p class=nomargin><a href=https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Preparation Online</a></p>
+            <p class=nomargin><a href=https://classes.wizako.com/gmat/gmat-coaching-classes-chennai.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gmat/ class=copyright rel=noopener
+                    target=_blank>GMAT Sample Questions</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizako class=copyright rel=noopener target=_blank>GMAT
+                    Prep Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml
+                rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GRE</h4>
+            </a>
+            <p class=nomargin><a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml class=copyright
+                    rel=noopener target=_blank>GRE Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gre/ class=copyright rel=noopener
+                    target=_blank>GRE Questions</a></p>
+            <p class=nomargin><a
+                    href=https://online.wizako.com/gre-preparation/gre-online-course-gre-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>Online GRE Coaching</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizakogre class=copyright rel=noopener target=_blank>GRE
+                    Preparation Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.ascenteducation.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">Ascent TANCET Coaching</h4>
+            </a>
+            <p class=nomargin><a href=https://online.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Classes Online</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Coaching Centres in Chennai</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/Previous_TANCET_Papers/ class=copyright
+                    rel=noopener target=_blank>TANCET Previous Year Question Papers</a></p>
+            <p class=nomargin><a href=https://questions.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Questions</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.maxtute.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Maxtute CBSE Maths Classes</h4>
+            </a>
+            <p class=nomargin><a href=https://online.maxtute.com/ class=copyright rel=noopener target=_blank>CBSE Online
+                    Classes</a></p>
+            <p class=nomargin><a
+                    href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/NCERT-solutions-class-10-maths/
+                    class=copyright rel=noopener target=_blank>NCERT Solution for Class 10 Maths</a></p>
+            <p class=nomargin><a href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/past-years-board-papers/
+                    class=copyright rel=noopener target=_blank>CBSE Sample Papers for class 10</a></p>
+            <p class=nomargin><a href=https://youtube.com/maxtute class=copyright rel=noopener target=_blank>Class 10
+                    Maths Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=http://piverb.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">PiVerb</h4>
+            </a>
+            <p class=nomargin><a href=http://piverb.com/ class=copyright rel=noopener target=_blank>Intuitive Math
+                    learning</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/piverb class=copyright rel=noopener target=_blank>School
+                    Math Videos</a></p>
+        </div>
+    </div>
+</div>
+<div class=banner id=installBanner> <button id=installBtn>Click to Browse Offline</button> </div>
+<script src="https://cdn-in.pagesense.io/js/fermateducation/a34f56cd10324361b7b10aac02551f21.js"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2KFHCS');</script>
+<!-- End Google Tag Manager -->
+     </div><!-- end wrapper -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/newjs/menumaker.js"></script>
+<script>
+    $("#cssmenu").menumaker({
+        title: "Menu",
+        format: "multitoggle"
+    });
+
+</script>
+<!-- lazy load lozad initialization -->
+<script>
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+
+</script>
+
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+
+<script>
+    //* Side Nav Drop Down Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+</script>
+<!-- Drop down button ends.-->
+<!--Workbox PWA SW registration begins below -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then(registration => {
+                    console.log('Service Worker registered! ð');
+                })
+                .catch(err => {
+                    console.log('Registration failed ð« ', err);
+                });
+        });
+    }
+
+</script>
+<!--Workbox PWA SW registration ends below -->
+<!--Workbox PWA prompt to intall app begins below -->
+<script>
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', event => {
+
+        // Prevent Chrome 67 and earlier from automatically showing the prompt
+        event.preventDefault();
+
+        // Stash the event so it can be triggered later.
+        deferredPrompt = event;
+
+        // Attach the install prompt to a user gesture
+        document.querySelector('#installBtn').addEventListener('click', event => {
+
+            // Show the prompt
+            deferredPrompt.prompt();
+
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+                .then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the A2HS prompt');
+                    } else {
+                        console.log('User dismissed the A2HS prompt');
+                    }
+                    deferredPrompt = null;
+                });
+        });
+
+        // Update UI notify the user they can add to home screen
+        document.querySelector('#installBanner').style.display = 'flex';
+    });
+
+</script>
+<!--Workbox PWA prompt to intall app ends below -->
+<!-- Popups call script begins here -->
+<script>
+    // When the user clicks on div, open the popup
+    var popup = document.getElementsByClassName("popup");
+    var popuptxt = document.getElementsByClassName("popuptext");
+    var i;
+
+    for (i = 0; i < popup.length; i++) {
+        popup[i].addEventListener("click", function() {
+            popuptxt.classList.toggle("show");
+        });
+    }
+
+</script>
+<!-- Popups call script ends here -->
+
+
+<!-- smooth scroll -->
+
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+</script>
+<!-- smooth scroll ends here -->
+
+<!-- Accordion script starts here -->
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+</script>
+<!-- Accordion script ends here and java-ssin ends here -->
+ </body>
+
+ </html>

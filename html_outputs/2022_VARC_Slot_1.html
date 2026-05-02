@@ -1,0 +1,1647 @@
+ <!doctype html>
+ <html dir=ltr lang=en>
+
+ <head>
+     <meta charset=utf-8>
+     <meta content="Detailed Text and Vedio Solutions for CAT 2022 VARC Slot 1" name=description>
+     <meta content="IE=edge" http-equiv=X-UA-Compatible>
+     <meta content="width=device-width,initial-scale=1" name=viewport>
+     <title>CAT 2022 Question Paper - Slot 1, 2IIM
+         CAT 2024 Online CAT Coaching, CAT Preparation Online | 2IIM CAT Coaching Online
+     </title>
+     <link rel="stylesheet" href="/newcss/style-ques-critical.css" type="text/css" />
+<!-- Favicons and Apple touch icons
+    ====================================== -->
+<link rel="manifest" href="/manifest.json">    
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta content="2IIM Online CAT Coaching" name=application-name>
+<meta content="2IIM Online CAT Coaching" name=apple-mobile-web-app-title>
+<meta name="theme-color" content="#8B0000">
+<meta name="msapplication-navbutton-color" content="#8B0000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/touch/icon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="apple-touch-icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- styles embedded for above the fold quick load -->
+<style>
+.wrapper{padding:0 16px;}
+.container{padding:0.01em 24px;}
+#cssmenu {
+	position: relative;
+	/*top: 100px;*/
+	margin: auto;
+	}
+/*  SECTIONS - Grid System  */
+.section {clear: both;padding: 0px;margin: 0px;}
+
+/*  COLUMN SETUP  */
+.col {display: block;float:left;margin: 1% 0 1% 1.6%;}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {width: 100%;}
+.span_1_of_2 {width: 49.2%;}
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }    
+/*  GRID OF FOUR  */
+.span_4_of_4 {width: 100%;}
+.span_3_of_4 {width: 74.6%;}
+.span_2_of_4 {width: 49.2%;}
+.span_1_of_4 {width: 23.8%;}
+/*  GRID OF FIVE  */
+.span_5_of_5 {width: 100%;}
+.span_4_of_5 {width: 79.68%;}
+.span_3_of_5 {width: 59.36%;}
+.span_2_of_5 {width: 39.04%;}
+.span_1_of_5 {width: 18.72%;}
+/*  Grid System GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5, .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; }
+    #topright{display: none;}    
+    .wrapper{padding:0px;}
+    #logo{max-width:80%; height:auto;}
+    #botlogo{max-width:80%; height:auto;padding-right:0px;border-right:none;}
+}    
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_1_of_4, .span_1_of_3, .span_1_of_2 { width:49%; }
+    .wrapper{padding:0 6px;}
+}
+@media screen and (max-width: 48rem) {
+  .container .col {
+    width: 95%;
+  }
+}
+</style>
+
+<script>
+        function loadCss(filename) {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = filename
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        function cb() {
+            loadCss('/newcss/style-ques-noncritical.css');            
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+     <link href="https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-VARC/" rel=canonical>
+     <script type=application/ld+json>
+         {
+             "@context": "http://schema.org",
+             "@type": "WebPage",
+             "mainEntityOfPage": "https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-VARC/",
+             "headline": "CAT Questions | CAT VA RC |  CAT VA RC 2022 Slot 1 Questions  ",
+             "datePublished": "2022-12-07T12:02:41Z",
+             "dateModified": "2022-12-07T12:02:41Z",
+             "description": "CAT questions from VA RC | Verbal Ability for CAT. Reading Comprehension for CAT. CAT Questions from VARC are available in 2IIMs free CAT Questions Online. 2IIM offers online CAT coaching for CAT and conducts CAT Coaching in Chennai. CAT questions with videos. Reading Comprehension questions for CAT, Verbal Ability questions for CAT.",
+             "author": {
+                 "@type": "Person",
+                 "name": "Rajesh Balasubramanian"
+             },
+             "publisher": {
+                 "@type": "Organization",
+                 "name": "2IIM Online CAT Coaching",
+                 "logo": {
+                     "@type": "ImageObject",
+                     "url": "https://online.2iim.com/images/dark-logo.png",
+                     "width": 180,
+                     "height": 80
+                 }
+             },
+             "image": {
+                 "@type": "ImageObject",
+                 "url": "https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-VARC/figa/OG/index.jpg",
+                 "height": 1200,
+                 "width": 627
+             },
+             "audience": {
+                 "@type": "EducationalAudience",
+                 "educationalRole": "Online CAT Coaching"
+             }
+         }
+     </script>
+     <script type=application/ld+json>
+         {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement": [{
+                 "@type": "ListItem",
+                 "position": 1,
+                 "name": "HOME",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 2,
+                 "name": "ONLINE CAT COACHING",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 3,
+                 "name": "CAT PREP RESOURCES",
+                 "item": "https://online.2iim.com/CAT-question-paper/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 4,
+                 "name": "CAT PREPARATION APP",
+                 "item": "https://play.google.com/store/apps/details?id=com.learnyst.twoiim&hl=en_IN"
+             }, {
+                 "@type": "ListItem",
+                 "position": 5,
+                 "name": "CAT COACHING",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 6,
+                 "name": "CAT PREPARATION",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 7,
+                 "name": "HOW TO PREPARE FOR CAT EXAM",
+                 "item": "https://online.2iim.com/how-to-prepare-for-cat-exam/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 8,
+                 "name": "BLOGS/SOCIAL",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 9,
+                 "name": "CONTACT",
+                 "item": "https://2iim.com/aboutus.shtml"
+             }]
+         }
+     </script>
+ </head>
+
+ <body>
+     <div class=wrapper>
+         <div class="group section" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="col span_1_of_4"> <a href=//www.2iim.com> <img alt="2IIM CAT Coaching" id=logo src=/figa/2iim-logo.jpg>
+        </a>
+    </div>
+
+    <div>
+        <ul style="list-style: none;">
+            <li> <a href="https://online.2iim.com/CAT-question-paper/">2IIM CAT Question Bank</a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="col span_3_of_4" id=topright>
+        <div style="background-color:#bdb76b;padding:10px 0">
+            <h4  id="Header" class=text-center><a style="color: #000000;"
+                    href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+            </h4>
+
+        </div>
+    </div> -->
+
+</div>
+
+
+
+<div style="background-color:#ed6810;padding:10px 0; margin-top: 5px; margin-bottom: 5px;">
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+        href="https://learn.2iim.com/learn/2IIM-Scholarship-test">
+      â³All India Scholarship Test â Unlock up to 100% Scholarship.
+    </h4><br> -->
+
+   
+
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+            href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml">&#x1f389;
+           ðGet Up to 100% Scholarship for CAT Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨-Enroll Now</a></h4> -->
+
+    <!-- <h4 class=text-center><a style="color: #000000;" href="https://online.2iim.com/CAT-score-calculator#">
+                &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;</a></h4>  -->
+
+</div>
+
+
+
+
+<div id=cssmenu>
+    <ul>
+        <li><a href=//online.2iim.com>Online CAT Coaching </a>
+            <ul>
+                <li> <a href=https://online.2iim.com>Visit our Website</a> </li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Coaching</a>
+            <ul>
+                <li><a href=https://chennai.2iim.com>CAT Coaching in Chennai</a> </li>
+                <li><a href=https://2iim.com/studymaterial>CAT Preparation Books</a></li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Preparation</a>
+            <ul>
+                <li><a href=https://online.2iim.com/CAT-question-paper>CAT Previous Year Papers</a> </li>
+                <li><a href=https://iim-cat-questions-answers.2iim.com>2IIM's CAT Questions</a> </li>
+                <li><a href=https://online.2iim.com/XAT-question-paper>XAT Previous Year Papers</a> </li>
+                <li><a href=https://online.2iim.com/IIFT-question-paper>IIFT Previous Year Papers</a> </li>
+                <li> <a href=https://online.2iim.com/how-to-prepare-for-cat-exam>How to prepare for CAT exam</a>
+                    <ul>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-Quantitative-Aptitude.shtml>How
+                                to prepare for CAT Quantitative Aptitude</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-DILR.shtml>How
+                                to prepare for CAT DILR Section</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-VARC.shtml>How
+                                to prepare for CAT VARC Section</a> </li>
+                    </ul>
+                </li>
+                <li><a href=https://online.2iim.com/what-is-cat-exam.shtml>What is CAT Exam All about</a></li>
+                <li><a href=https://online.2iim.com/cat-syllabus.shtml>CAT Syllabus</a> </li>
+                <!--                <li><a href=https://online.2iim.com/youtube-cat-live-classes>CAT Online Live Classes</a></li>-->
+                <li><a href=https://gmat.wizako.com>GMAT Preparation Online</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href=https://chennai.2iim.com>Blogs / Social</a> <ul> <li><a href=https://online.2iim.com/cat-exam/blogs>2IIM CAT Preparation Blog</a> </li> <li><a href=https://www.quora.com/What-is-your-review-of-2IIM-Online-CAT-Preparation>2IIM CAT Preparation Reviews</a> </li> <li><a href=https://www.quora.com/profile/Rajesh-Balasubramanian-8>CAT Preparation Quora Answers</a> </li> <li><a href=https://www.youtube.com/2iimcat>CAT Preparation Videos</a> </li> <li><a href=https://www.facebook.com/groups/2iimcat/ >CAT Preparation Facebook Group</a></li> <li><a href=https://www.facebook.com/2iimcat/ >CAT Preparation Facebook Page</a></li> <li><a href=https://online.2iim.com/cat-exam/blogs>CAT Preparation Blogs</a> <ul> <li><a href=https://iimcat.2iim.com/ >CAT Questions Quantitative Aptitude Blog</a></li> <li><a href=https://catscores.2iim.com/ >CAT Preparation Blog</a></li></ul> </li> </ul></li> -->
+        <li><a href=https://2iim.com/aboutus.shtml>Contact </a>
+            <ul>
+                <!--                <li><a ref=https://2iim.com/aboutus.shtml>About Us</a> </li>-->
+                <!--                <li><a href=https://2iim.com/team.shtml>Our Team</a> </li>-->
+                <li><a href=https://online.2iim.com/2IIM-Results>Results</a> </li>
+                <li><a href=https://2iim.com/workforus.shtml>Work for Us</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href="https://learn.2iim.com/signup/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-signup" rel="noopener nofollow noreferrer" target=_blank>Signup</a></li> <li><a href="https://learn.2iim.com/login/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-login" rel="noopener nofollow noreferrer" target=_blank>Login</a></li>-->
+        <li><a href="https://online.2iim.com/online-ipm.shtml" rel="noopener" target=_blank>IPMAT 2026 Coaching
+                Online</a> </li>
+    </ul>
+</div>
+
+<!--Learn from 5 time CAT 100%iler | Best CAT Online Coaching | CAT Preparation-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=headertop&utm_campaign=onlinepage -->
+
+<!-- https://learn.2iim.com/learn/account/signup?segmentId=604&segmentPath=604 -->
+         <header class="container bg-light-orange" style=background-size:cover>
+             <div class="group section">
+                 <div class="col span_3_of_4">
+                     <div style=vertical-align:middle>
+                         <h1 class="black nomargin">CAT 2022 Question Paper | CAT VA RC</h1>
+                         <h6 class=black style="margin:0 0 10px 0">CAT Question Paper | CAT Previous Year Paper</h6>
+                     </div>
+                 </div>
+                 <div class="col span_1_of_4">
+                     <div>
+                         <p class=breadcrumb><a href="https://online.2iim.com/">CAT Online Coaching</a> / <a href="https://online.2iim.com/CAT-question-paper/">CAT Previous Year Paper</a> / <span class="black fw700">CAT 2022 VARC Slot 1</span> </p>
+                     </div>
+                 </div>
+             </div>
+         </header>
+         <div style=clear:both></div>
+         <section class=container>
+             <div class="group section">
+                 <div class="col span_4_of_5">
+                     <p><span class="dropcap">T</span>he best way to improve your <b><a href="https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-VARC.shtml" rel="noopener noreferrer" target="_blank">VARC</a></b> skill is Reading. Read tons of stuff from <b><a href="https://online.2iim.com/cat-exam/blogs/bharaths-curated-reading-list-for-cat-exam/" rel="noopener noreferrer" target="_blank">Bharath's Curated Reading list</a></b> and get a wonderful VARC score.</p>
+
+
+
+                                          <ol class="ques ques1">
+
+                                            <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />The Chinese have two different concepts of a copy. Fangzhipin . . . are imitations where the difference from the original is obvious. These are small models or copies that can be purchased in a museum shop, for example. The second concept for a copy is fuzhipin . . . They are exact reproductions of the original, which, for the Chinese, are of equal value to the original. It has absolutely no negative connotations. The discrepancy with regard to the understanding of what a copy is has often led to misunderstandings and arguments between China and Western museums. The Chinese often send copies abroad instead of originals, in the firm belief that they are not essentially different from the originals. The rejection that then comes from the Western museums is perceived by the Chinese as an insult. . . .<br /><br />The Far Eastern notion of identity is also very confusing to the Western observer. The Ise Grand Shrine [in Japan] is 1,300 years old for the millions of Japanese people who go there on pilgrimage every year. But in reality this temple complex is completely rebuilt from scratch every 20 years. . . . <br /><br />The cathedral of Freiburg Minster in southwest Germany is covered in scaffolding almost all year round. The sandstone from which it is built is a very soft, porous material that does not withstand natural erosion by rain and wind. After a while, it crumbles. As a result, the cathedral is continually being examined for damage, and eroded stones are replaced. And in the cathedral's dedicated workshop, copies of the damaged sandstone figures are constantly being produced. Of course, attempts are made to preserve the stones from the Middle Ages for as long as possible. But at some point they, too, are removed and replaced with new stones. <br /><br />Fundamentally, this is the same operation as with the Japanese shrine, except in this case the production of a replica takes place very slowly and over long periods of time. . . . In the field of art as well, the idea of an unassailable original developed historically in the Western world. Back in the 17th century [in the West], excavated artworks from antiquity were treated quite differently from today. They were not restored in a way that was faithful to the original. Instead, there was massive intervention in these works, changing their appearance. . . . <br /><br />It is probably this intellectual position that explains why Asians have far fewer scruples about cloning than Europeans. The South Korean cloning researcher Hwang Woo-suk, who attracted worldwide attention with his cloning experiments in 2004, is a Buddhist. He found a great deal of support and followers among Buddhists, while Christians called for a ban on human cloning. . . . Hwang legitimised his cloning experiments with his religious affiliation: 'I am Buddhist, and I have no philosophical problem with cloning. And as you know, the basis of Buddhism is that life is recycled through reincarnation. In some ways, I think, therapeutic cloning restarts the circle of life.'</p>
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Based on the passage, which one of the following copies would a Chinese museum be unlikely to consider as having less value than the original?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Pablo Picasso's painting of Vincent van Gogh's original painting, identical in every respect.</li>
+                                                              <li>Pablo Picasso's photograph of Vincent van Gogh's original painting, printed to exactly the same scale.</li>
+                                                              <li>Pablo Picasso's miniaturised, but otherwise faithful and accurate painting of Vincent van Gogh's original painting.</li>
+                                                              <li>Pablo Picasso's painting of Vincent van Gogh's original painting, bearing Picasso's signature.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Pablo Picasso's painting of Vincent van Gogh's original painting, identical in every respect.</span></div>
+                                                              <a href=verbal-question-1.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-1.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements does not correctly express the similarity between the Ise Grand Shrine and the cathedral of Freiburg Minster?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Both can be regarded as very old structures.</li>
+                                                              <li>Both will one day be completely rebuilt.</li>
+                                                              <li>Both were built as places of worship.</li>
+                                                              <li>Both are continually undergoing restoration.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Both are continually undergoing restoration.</span></div>
+                                                              <a href=verbal-question-2.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-2.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following scenarios is unlikely to follow from the arguments in the passage?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>A 17th century British painter would have no problem adding personal touches when restoring an ancient Roman painting.</li>
+                                                              <li>A 20th century Japanese Buddhist monk would value a reconstructed shrine as the original.</li>
+                                                              <li>A 17th century French artist who adhered to a Christian worldview would need to be completely true to the original intent of a painting when restoring it.</li>
+                                                              <li>A 21st century Christian scientist is likely to oppose cloning because of his philosophical orientation.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>A 17th century French artist who adhered to a Christian worldview would need to be completely true to the original intent of a painting when restoring it.</span></div>
+                                                              <a href=verbal-question-3.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-3.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The value that the modern West assigns to "an unassailable original" has resulted in all of the following EXCEPT:</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>it discourages them from making interventions in ancient art.</li>
+                                                              <li>it discourages them from carrying out human cloning.</li>
+                                                              <li>it discourages them from simultaneous displays of multiple copies of a painting.</li>
+                                                              <li>it allows regular employment for certain craftsmen.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>it discourages them from carrying out human cloning.</span></div>
+                                                              <a href=verbal-question-4.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-4.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+                                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Stoicism was founded in 300 BC by the Greek philosopher Zeno and survived into the Roman era until about AD 300. According to the Stoics, emotions consist of two movements. The first movement is the immediate feeling and other reactions (e.g., physiological response) that occur when a stimulus or event occurs. For instance, consider what could have happened if an army general accused Marcus Aurelius of treason in front of other officers. The first movement for Marcus may have been (internal) surprise and anger in response to this insult, accompanied perhaps by some involuntary physiological and expressive responses such as face flushing and a movement of the eyebrows. The second movement is what one does next about the emotion. Second movement behaviors occur after thinking and are under one's control. Examples of second movements for Marcus might have included a plot to seek revenge, actions signifying deference and appeasement, or perhaps proceeding as he would have proceeded whether or not this event occurred: continuing to lead the Romans in a way that Marcus Aurelius believed best benefited them. In the Stoic view, choosing a reasoned, unemotional response as the second movement is the only appropriate response.<br /><br />The Stoics believed that to live the good life and be a good person, we need to free ourselves of nearly all desires such as too much desire for money, power, or sexual gratification. Prior to second movements, we can consider what is important in life. Money, power, and excessive sexual gratification are not important. Character, rationality, and kindness are important. The Epicureans, first associated with the Greek philosopher Epicurus . . . held a similar view, believing that people should enjoy simple pleasures, such as good conversation, friendship, food, and wine, but not be indulgent in these pursuits and not follow passion for those things that hold no real value like power and money. As Oatley (2004) states, "the Epicureans articulated a viewâenjoyment of relationship with friends, of things that are real rather than illusory, simple rather than artificially inflated, possible rather than vanishingly unlikelyâthat is certainly relevant today" . . . In sum, these ancient Greek and Roman philosophers saw emotions, especially strong ones, as potentially dangerous. They viewed emotions as experiences that needed to be [reined] in and controlled.<br /><br />As Oatley (2004) points out, the Stoic idea bears some similarity to Buddhism. Buddha, living in India in the 6th century BC, argued for cultivating a certain attitude that decreases the probability of (in Stoic terms) destructive second movements. Through meditation and the right attitude, one allows emotions to happen to oneself (it is impossible to prevent this), but one is advised to observe the emotions without necessarily acting on them; one achieves some distance and decides what has value and what does not have value. Additionally, the Stoic idea of developing virtue in oneself, of becoming a good person, which the Stoics believed we could do because we have a touch of the divine, laid the foundation for the three monotheistic religions: Judaism, Christianity, and Islam . . . As with Stoicism, tenets of these religions include controlling our emotions lest we engage in sinful behavior.</p>
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>On the basis of the passage, which one of the following statements can be regarded as true?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>The Epicureans believed in controlling all emotions.</li>
+                                                              <li>There were no Stoics in India at the time of the Roman civilisation.</li>
+                                                              <li>The Stoic influences can be seen in multiple religions.</li>
+                                                              <li>The Stoics valorised the pursuit of money, power, and sexual gratification.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>The Stoic influences can be seen in multiple religions.</span></div>
+                                                              <a href=verbal-question-5.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-5.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements, if false, could be seen as contradicting the facts/arguments in the passage?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>In the Epicurean view, indulging in simple pleasures is not desirable.</li>
+                                                              <li>Despite practising meditation and cultivating the right attitude, emotions cannot ever be controlled.</li>
+                                                              <li>In the Stoic view, choosing a reasoned, unemotional response as the first movement is an appropriate response to emotional situations.</li>
+                                                              <li>The Greek philosopher Zeno survived into the Roman era until about AD 300.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>In the Epicurean view, indulging in simple pleasures is not desirable.</span></div>
+                                                              <a href=verbal-question-6.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-6.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>"Through meditation and the right attitude, one allows emotions to happen to oneself (it is impossible to prevent this), but one is advised to observe the emotions without necessarily acting on them; one achieves some distance and decides what has value and what does not have value." In the context of the passage, which one of the following is not a possible implication of the quoted statement?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Meditation allows certain out-of-body experiences that permit us to gain the distance necessary to control our emotions.</li>
+                                                              <li>Emotional responses can make it difficult to distinguish valuable experiences from valueless experiences.</li>
+                                                              <li>The observation of emotions in a distant manner corresponds to the second movement referred to earlier in the passage.</li>
+                                                              <li>"Meditation and the right attitude", in this instance, implies an initially passive reception of all experiences.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Meditation allows certain out-of-body experiences that permit us to gain the distance necessary to control our emotions.</span></div>
+                                                              <a href=verbal-question-7.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-7.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements would be an accurate inference from the example of Marcus Aurelius?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Marcus Aurelius was humiliated by the accusation of treason in front of the other officers.</li>
+                                                              <li>Marcus Aurelius was one of the leaders of the Roman army.</li>
+                                                              <li>Marcus Aurelius was a Stoic whose philosophy survived into the Roman era.</li>
+                                                              <li>Marcus Aurelius plotted revenge in his quest for justice.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Marcus Aurelius was one of the leaders of the Roman army.</span></div>
+                                                              <a href=verbal-question-8.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-8.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+                                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Critical theory of technology is a political theory of modernity with a normative dimension. It belongs to a tradition extending from Marx to Foucault and Habermas according to which advances in the formal claims of human rights take center stage while in the background centralization of ever more powerful public institutions and private organizations imposes an authoritarian social order. <br /><br />Marx attributed this trajectory to the capitalist rationalization of production. Today it marks many institutions besides the factory and every modern political system, including so-called socialist systems. This trajectory arose from the problems of command over a disempowered and deskilled labor force; but everywhere [that] masses are organized â whether it be Foucault's prisons or Habermas's public sphere â the same pattern prevails. Technological design and development is shaped by this pattern as the material base of a distinctive social order. Marcuse would later point to a "project" as the basis of what he called rather confusingly "technological rationality." Releasing technology from this project is a democratic political task. <br /><br />In accordance with this general line of thought, critical theory of technology regards technologies as an environment rather than as a collection of tools. We live today with and even within technologies that determine our way of life. Along with the constant pressures to build centers of power, many other social values and meanings are inscribed in technological design. A hermeneutics of technology must make explicit the meanings implicit in the devices we use and the rituals they script. Social histories of technologies such as the bicycle, artificial lighting or firearms have made important contributions to this type of analysis. Critical theory of technology attempts to build a methodological approach on the lessons of these histories. <br /><br />As an environment, technologies shape their inhabitants. In this respect, they are comparable to laws and customs. Each of these institutions can be said to represent those who live under their sway through privileging certain dimensions of their human nature. Laws of property represent the interest in ownership and control. Customs such as parental authority represent the interest of childhood in safety and growth. Similarly, the automobile represents its users in so far as they are interested in mobility. Interests such as these constitute the version of human nature sanctioned by society. <br /><br />This notion of representation does not imply an eternal human nature. The concept of nature as non-identity in the Frankfurt School suggests an alternative. On these terms, nature is what lies at the limit of history, at the point at which society loses the capacity to imprint its meanings on things and control them effectively. The reference here is, of course, not to the nature of natural science, but to the lived nature in which we find ourselves and which we are. This nature reveals itself as that which cannot be totally encompassed by the machinery of society. For the Frankfurt School, human nature, in all its transcending force, emerges out of a historical context as that context is [depicted] in illicit joys, struggles and pathologies. We can perhaps admit a less romantic . . . conception in which those dimensions of human nature recognized by society are also granted theoretical legitimacy.</p>
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>All of the following claims can be inferred from the passage, EXCEPT:</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>technologies seek to privilege certain dimensions of human nature at a high cost to lived nature.</li>
+                                                              <li>the significance of parental authority to children's safety does not therefore imply that parental authority is a permanent aspect of human nature.</li>
+                                                              <li>analyses of technologies must engage with their social histories to be able to reveal their implicit and explicit meanings for us.</li>
+                                                              <li>the critical theory of technology argues that, as issues of human rights become more prominent, we lose sight of the ways in which the social order becomes more authoritarian.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>technologies seek to privilege certain dimensions of human nature at a high cost to lived nature.</span></div>
+                                                              <a href=verbal-question-9.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-9.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements best reflects the main argument of the fourth paragraph of the passage?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Technological environments privilege certain dimensions of human nature as effectively as laws and customs.</li>
+                                                              <li>Technology, laws, and customs are not unlike each other if considered as institutions.</li>
+                                                              <li>Technology, laws, and customs are comparable, but dissimilar phenomena.</li>
+                                                              <li>Automobiles represent the interest in mobility present in human nature.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Technology, laws, and customs are not unlike each other if considered as institutions.</span></div>
+                                                              <a href=verbal-question-10.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-10.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements contradicts the arguments of the passage?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Marx's understanding of the capitalist rationalisation of production and Marcuse's understanding of a "project" of "technological rationality" share theoretical inclinations.</li>
+                                                              <li>Masses are organised in patterns set by Foucault's prisons and Habermas' public sphere.</li>
+                                                              <li>Paradoxically, the capitalist rationalisation of production is a mark of so-called socialist systems as well.</li>
+                                                              <li>The problems of command over a disempowered and deskilled labour force gave rise to similar patterns of the capitalist rationalisation of production wherever masses were organised.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Masses are organised in patterns set by Foucault's prisons and Habermas' public sphere.</span></div>
+                                                              <a href=verbal-question-11.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-11.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements could be inferred as supporting the arguments of the passage?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>The romantic conception of nature referred to by the passage is the one that requires theoretical legitimacy.</li>
+                                                              <li>Technologies form the environmental context and shape the contours of human society.</li>
+                                                              <li>It is not human nature, but human culture that is represented by institutions such as law and custom.</li>
+                                                              <li>Nature decides the point at which society loses its capacity to control history.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Technologies form the environmental context and shape the contours of human society.</span></div>
+                                                              <a href=verbal-question-12.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-12.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+                                           <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br /><br />Stories concerning the Undead have always been with us. From out of the primal darkness of Mankind's earliest years, come whispers of eerie creatures, not quite alive (or alive in a way which we can understand), yet not quite dead either. These may have been ancient and primitive deities who dwelt deep in the surrounding forests and in remote places, or simply those deceased who refused to remain in their tombs and who wandered about the countryside, physically tormenting and frightening those who were still alive. Mostly they were ill-definedâstrange sounds in the night beyond the comforting glow of the fire, or a shape, half-glimpsed in the twilight along the edge of an encampment. They were vague and indistinct, but they were always there with the power to terrify and disturb. They had the power to touch the minds of our early ancestors and to fill them with dread. Such fear formed the basis of the earliest tales although the source and exact nature of such terrors still remained very vague.<br /><br />And as Mankind became more sophisticated, leaving the gloom of their caves and forming themselves into recognizable communitiesâtowns, cities, whole culturesâso the Undead travelled with them, inhabiting their folklore just as they had in former times. Now they began to take on more definite shapes. They became walking cadavers; the physical embodiment of former deities and things which had existed alongside Man since the Creation. Some still remained vague and ill-defined but, as Mankind strove to explain the horror which it felt towards them, such creatures emerged more readily into the light.<br /><br />In order to confirm their abnormal status, many of the Undead were often accorded attributes, which defied the natural order of thingsâthe power to transform themselves into other shapes, the ability to sustain themselves by drinking human blood, and the ability to influence human minds across a distance. Such powersâdescribed as supernaturalâonly [lent] an added dimension to the terror that humans felt regarding them. <br /><br />And it was only natural, too, that the Undead should become connected with the practice of magic. From very early times, Shamans and witchdoctors had claimed at least some power and control over the spirits of departed ancestors, and this has continued down into more "civilized" times. Formerly, the invisible spirits and forces that thronged around men's earliest encampments, had spoken "through" the tribal Shamans but now, as entities in their own right, they were subject to magical control and could be physically summoned by a competent sorcerer. However, the relationship between the magician and an Undead creature was often a very tenuous and uncertain one. Some sorcerers might have even become Undead entities once they died, but they might also have been susceptible to the powers of other magicians when they did.<br /><br />From the Middle Ages and into the Age of Enlightenment, theories of the Undead continued to grow and develop. Their names became more familiarâwerewolf, vampire, ghoulâeach one certain to strike fear into the hearts of ordinary humans.</p>
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following statements best describes what the passage is about?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>The passage discusses the evolution of theories of the Undead from primitive thinking to the Age of Enlightenment.</li>
+                                                              <li>The passage describes the failure of human beings to fully comprehend their environment.</li>
+                                                              <li>The writer discusses the transition from primitive thinking to the Age of Enlightenment.</li>
+                                                              <li>The writer describes the ways in which the Undead come to be associated with Shamans and the practice of magic.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>The passage discusses the evolution of theories of the Undead from primitive thinking to the Age of Enlightenment.</span></div>
+                                                              <a href=verbal-question-13.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-13.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>"In order to confirm their abnormal status, many of the Undead were often accorded attributes, which defied the natural order of things . . ." Which one of the following best expresses the claim made in this statement?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>The Undead are deified in nature's order by giving them divine attributes.</li>
+                                                              <li>According the Undead an abnormal status is to reject the natural order of things.</li>
+                                                              <li>Human beings conceptualise the Undead as possessing abnormal features.</li>
+                                                              <li>The natural attributes of the Undead are rendered abnormal by changing their status.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Human beings conceptualise the Undead as possessing abnormal features.</span></div>
+                                                              <a href=verbal-question-14.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-14.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>All of the following statements, if false, could be seen as being in accordance with the passage, EXCEPT:</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>the Undead remained vague and ill-defined, even as Mankind strove to understand the horror they inspired.</li>
+                                                              <li>the relationship between Shamans and the Undead was believed to be a strong and stable one.</li>
+                                                              <li>the growing sophistication of Mankind meant that humans stopped believing in the Undead.</li>
+                                                              <li>the transition from the Middle Ages to the Age of Enlightenment saw new theories of the Undead.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>the transition from the Middle Ages to the Age of Enlightenment saw new theories of the Undead.</span></div>
+                                                              <a href=verbal-question-15.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-15.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>Which one of the following observations is a valid conclusion to draw from the statement, "From out of the primal darkness of Mankind's earliest years, come whispers of eerie creatures, not quite alive (or alive in a way which we can understand), yet not quite dead either."?</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Mankind's primal years were marked by creatures alive with eerie whispers, but seen only in the darkness.</li>
+                                                              <li>Mankind's early years were marked by a belief in the existence of eerie creatures that were neither quite alive nor dead.</li>
+                                                              <li>We can understand the lives of the eerie creatures in Mankind's early years through their whispers in the darkness.</li>
+                                                              <li>Long ago, eerie creatures used to whisper in the primal darkness that they were not quite dead.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Mankind's early years were marked by a belief in the existence of eerie creatures that were neither quite alive nor dead.</span></div>
+                                                              <a href=verbal-question-16.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-16.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />Petitioning is an expeditious democratic tradition, used frequently in prior centuries, by which citizens can bring issues directly to governments. As expressions of collective voice, they support procedural democracy by shaping agendas. They can also recruit citizens to causes, give voice to the voteless, and apply the discipline of rhetorical argument that clarifies a point of view. By contrast, elections are limited in several respects: they involve only a few candidates, and thus fall far short of a representative democracy. Further, voters' choices are not specific to particular policies or laws, and elections are episodic, whereas the voice of the people needs to be heard and integrated constantly into democratic government.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Petitioning has been important to democratic functioning, as it supplements the electoral process by enabling ongoing engagement with the government.</li>
+                                                              <li>Petitioning is definitely more representative of the collective voice, and the functioning of democratic government could improve if we relied more on petitioning rather than holding periodic elections.</li>
+                                                              <li>By giving citizens greater control over shaping political and democratic agendas, political petitions are invaluable as they represent an ideal form of a representative democracy.</li>
+                                                              <li>Citizens become less inclined to petitioning as it enables vocal citizens to shape political agendas, but this needs to change to strengthen democracies today.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Petitioning has been important to democratic functioning, as it supplements the electoral process by enabling ongoing engagement with the government.</span></div>
+                                                              <a href=verbal-question-17.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-17.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />All that we think we know about how life hangs together is really some kind of illusion that we have perpetrated on ourselves because of our limited vision. What appear to be inanimate objects such as stones turn out not only to be alive in the same way that we are, but also in many infinitesimal ways to be affected by stimuli just as humans are. The distinction between animate and inanimate simply cannot be made when you enter the world of quantum mechanics and try to determine how those apparent subatomic particles, of which you and everything else in our universe is composed, are all tied together. The point is that physics and metaphysics show there is a pattern to the universe that goes beyond our capacity to grasp it with our brains.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Arbitrary distinctions between inanimate and animate objects disappear at the scale at which quantum mechanics works.</li>
+                                                              <li>Quantum physics indicates that an astigmatic view of reality results in erroneous assumptions about the universe.</li>
+                                                              <li>The inanimate world is both sentient and cognizant like its animate counterpart.</li>
+                                                              <li>The effect of stimuli is similar in inanimate objects when compared to animate objects or living beings.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Arbitrary distinctions between inanimate and animate objects disappear at the scale at which quantum mechanics works.</span></div>
+                                                              <a href=verbal-question-18.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-18.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br /> 1. Some company leaders are basing their decisions on locating offices to foster innovation and growth, as their best-performing inventors suffered the greatest productivity losses when their commutes grew longer. <br />2. Shorter commutes support innovation by giving employees more time in the office and greater opportunities for in-person collaboration, while removing the physical strain of a long commute.  <br />3. This is not always the case: remote work does not automatically lead to greater creativity and productivity as office water-cooler conversations are also very important for innovation.<br />4. Some see the link between long commutes and productivity as support for work-from-home scenarios, as many workers have grown accustomed to their commute-free arrangements during the pandemic.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>2143</span></div>
+                                                              <a href=verbal-question-19.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-19.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.<br /><br />Sentence: Having made citizens more and less knowledgeable than their predecessors, the Internet has proved to be both a blessing and a curse.<br /><br />Paragraph: Never before has a population, nearly all of whom has enjoyed at a least a secondary school education, been exposed to so much information, whether in newspapers and magazines or through YouTube, Google, and Facebook. ___(1)___. Yet it is not clear that people today are more knowledgeable than their barely literate predecessors. Contemporary advances in technology offered more serious and inquisitive students access to realms of knowledge previously unimaginable and unavailable. ___(2)___. But such readily available knowledge leads many more students away from serious study, the reading of actual texts, and toward an inability to write effectively and grammatically. ___(3)___. It has let people choose sources that reinforce their opinions rather than encouraging them to question inherited beliefs. ___(4)___.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Option 1</li>
+                                                              <li>Option 2</li>
+                                                              <li>Option 3</li>
+                                                              <li>Option 4Â </li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Option 4Â </span></div>
+                                                              <a href=verbal-question-20.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-20.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br /> 1. The creative element in product design has become of paramount importance as it is one of the few ways a firm or industry can sustain a competitive advantage over its rivals. <br />2. In fact, the creative element in the value of world industry would be larger still, if we added the contribution of the creative element in other industries, such as the design of tech accessories. <br />3. The creative industry is receiving a lot of attention today as its growth rate is faster than that of the world economy as a whole.<br />4. It is for this reason that today's trade issues are increasingly involving intellectual property, as Western countries have an interest in protecting their revenues along with freeing trade in non-tangibles.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>3214</span></div>
+                                                              <a href=verbal-question-21.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-21.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.<br /><br />Sentence: Easing the anxiety and pressure of having a "big day" is part of the appeal for many couples who marry in secret.<br /><br />Paragraph: Wedding season is upon us and â after two years of Covid chaos that saw nuptials scaled backâ you may think the temptation would be to go all out. ___(1)___. But instead of expanding the guest list, many couples are opting to have entirely secret ceremonies. With Covid case numbers remaining high and the cost of living crisis meaning that many couples are feeling the pinch, it's no wonder that some are less than eager to send out invites. ___(2)___. Plus, it can't hurt that in celebrity circles getting married in secret is all the rage. ___(3)___. "I would definitely say that secret weddings are becoming more common," says Landis Bejar, the founder of a therapy practice, which specialises in helping brides and grooms manage wedding stress. "People are looking for ways to get out of the spotlight and avoid the pomp and circumstance of weddings. ___(4)___. They just want to get to the part where they are married."</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Option 1</li>
+                                                              <li>Option 2</li>
+                                                              <li>Option 3</li>
+                                                              <li>Option 4</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Option 2</span></div>
+                                                              <a href=verbal-question-22.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-22.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br /><br />It's not that modern historians of medieval Africa have been ignorant about contacts between Ethiopia and Europe; they just had the power dynamic reversed. The traditional narrative stressed Ethiopia as weak and in trouble in the face of aggression from external forces, so Ethiopia sought military assistance from their fellow Christians to the north. But the real story, buried in plain sight in medieval diplomatic texts, simply had not yet been put together by modern scholars. Recent research pushes scholars of medieval Europe to imagine a much more richly connected medieval world: at the beginning of the so-called Age of Exploration, there is evidence that the kings of Ethiopia were sponsoring their own missions of diplomacy, faith and commerce.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                              <li>Medieval historical sources selectively promoted the narrative that powerful European forces were called on to protect weak African civilisations such as Ethiopia, but this is far from reality.</li>
+                                                              <li>Medieval texts have been 'cherry-picked' to promote a view of Ethiopia as weak and in need of Europe's military help with aggressive neighbours, but recent studies reveal it was a well-connected and outward-looking culture.</li>
+                                                              <li>Medieval texts have documented how strong connections between the Christian communities of Ethiopia and Europe were invaluable in establishing military and trade links between the two civilisations.</li>
+                                                              <li>Historians were under the illusion that Ethiopia needed military protection from their neighbours, but in fact the country had close commercial and religious connections with them.</li>
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Medieval texts have been 'cherry-picked' to promote a view of Ethiopia as weak and in need of Europe's military help with aggressive neighbours, but recent studies reveal it was a well-connected and outward-looking culture.</span></div>
+                                                              <a href=verbal-question-23.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-23.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                                           <li>
+                                                  <h4>CAT 2022 Slot 1 - VA RC</h4>
+                                                  <p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br /><br />1. Fish skin collagen has excellent thermo-stability and tensile strength making it ideal for use as bandage that adheres to the skin and adjusts to body movements.<br />2. Collagen, one of the main structural proteins in connective tissues in the human body, is well known for promoting skin regeneration. <br />3. Fish skin swims in here as diseases and bacteria that affect fish are different from most human pathogens.<br />4. The risk of introducing disease agents into other species through the use of pig and cow collagen proteins for wound healing has inhibited its broader applications in the medical field.</p>
+                                                  <div class="group section">
+                                                      <div class="col span_3_of_4">
+                                                          <ol class="choice choice1">
+                                                          </ol>
+                                                      </div>
+                                                      <div class="col span_1_of_4">
+                                                          <div class=btn-group>
+                                                              <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext>2431</span></div>
+                                                              <a href=verbal-question-24.shtml><button class=button>Video Explanation</button></a>
+                                                              <a href=verbal-question-24.shtml><button class=button>Explanation</button></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <hr>
+                                              </li>
+
+
+                     </ol>
+
+
+
+                 </div>
+                 <!-- Add this in the <head> section of your HTML file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="col span_1_of_5">
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+     <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-Scholarship-test">â³All India Scholarship Test â Unlock up to 100% Scholarship.</a>
+        </h6> 
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-Scholarship-test"
+                class="reverse w3-button" rel=noopener target=_blank> â Take the test now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+
+    <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://forms.gle/MAJ2GaoR9zUvoAWy7">â³Register for a free 2IIM demo class and start your
+                preparation the right way.</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://forms.gle/MAJ2GaoR9zUvoAWy7" class="reverse w3-button" rel=noopener
+                target=_blank> â Click here!</a>
+        </p>
+    </div>
+
+
+
+    <div id="flame-button"
+        style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px; overflow: hidden; max-width: 100%;">
+        <a
+            href="https://www.flame.edu.in/register/pg/mba/2026/2iim/?utm_source=2IIM&utm_medium=Weblink&utm_campaign=AY2026-PG-MBA-LP">
+            <img src="https://iim-cat-questions-answers.2iim.com/images/2iim-sponcor.jpg" alt="sponsor"
+                style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+    <!-- <div style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/online-ipm.shtml">Best Indore IPM &amp; Rohtak IPM Coaching<br />Signup
+                and
+                sample 9
+                full classes for free. Register now!</a>
+        </h6>
+        <p style="text-align: center; margin-top: 8px; margin-bottom: 0"></p>
+        <p class="text-center">
+            <a href="https://online.2iim.com/online-ipm.shtml" class="reverse w3-button" rel="noopener"
+                target="_blank">â
+                Signup now</a>
+        </p>
+    </div> -->
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml"> ðGet Up to 100% Scholarship for CAT
+                Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml" class="reverse w3-button"
+                rel=noopener target=_blank> â Enroll Now!</a>
+
+        </p>
+    </div> -->
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025">&#x1f389; Enrol for the 2IIM GDPI course and avail an exclusive discount.</a>
+        </h6>
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025">Master Algebra this weekend â Boost your Quant Percentile ð. ð Sep 13â14 | Online Workshop | â¹1499
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Enroll Now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"> ð¯ CAT VIJAY PATH Step onto the path of victory with up to â¹20,000 OFF on our CAT courses. ð¥ Offer valid till 18th May.</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat-2025?show=all&type=100&categoryCustomName=cat-2025"
+                class="reverse w3-button" rel=noopener target=_blank>Check here!</a></p>
+    </div> -->
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"><a href="https://online.2iim.com/CAT-question-paper-pdf/">Download comprehensive
+                PDFs of past yearsâ question papers with answers.</a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/CAT-question-paper-pdf/" class="reverse w3-button"
+                rel=noopener target=_blank>â Click here</a></p>
+    </div>
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform">Repeating
+                CAT? Ace it with <span style="color: red;">2</span>IIM! Get expert guidance & exclusive discounts.
+                ð</a></h6>
+        <p class=text-center><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform"
+                class="reverse w3-button" rel=noopener target=_blank>â Register Now</a></p>
+    </div> -->
+
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604">Best CAT Online Coaching
+                <br>
+                Try upto 40 hours for free <br> Learn from the best!</a>
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604"
+                class="reverse w3-button" rel=noopener target=_blank> â Sign up Now!</a>
+        </p>
+    </div>
+
+
+
+
+
+
+    <!-- <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://www.welingkar.org/pgdm/?utm_source=2IIM&utm_medium=Banner"><img alt="Welingkar"
+            data-src="https://online.2iim.com/figa/welingkar.png" class="lozad responsive"><noscript><img
+                alt="Welingkar" src=https://online.2iim.com/figa/welingkar.png></noscript>
+    </a> -->
+
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage">CAT
+                Coaching in Chennai<br>CAT 2024</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Classroom Batches Starting Now! @Gopalapuram and @Anna
+            nagar</p>
+        <p class=text-center><a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage"
+                class="reverse w3-button" rel=noopener target=_blank>â CAT Coaching</a></p>
+    </div> -->
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a href=//chennai.2iim.com>Best CAT Coaching in Chennai<br></a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Attend a Demo Class</p>
+        <p class=text-center><a href="https://fermat.viewpage.co/Classroom-Demo" class="reverse w3-button" rel=noopener
+                target=_blank>â Schedule a Demo!</a></p>
+    </div> -->
+
+</div>
+<!-- <img alt="2IIM CAT Online Coaching Classes" data-src="https://online.2iim.com/figa/joey-results.png" class="lozad responsive"><noscript><img alt="2IIM CAT Online Coaching Classes" src=https://online.2iim.com/figa/joey-results.png></noscript>-->
+<!-- <img src="/figa/loading.jpg" alt="Loading" class="responsive">-->
+<!-- <picture class=lozad data-alt="GMAT Online Course Content" data-iesrc=/figa/loading.jpg style=display:block;min-height:1rem;float:left;vertical-align:top;margin-right:20px> <source media="(min-width: 900px)" srcset=/figa/loading.jpg> <source media="(min-width: 480px)" srcset=/figa/loading.jpg> <source media="(min-width: 320px)" srcset=/figa/loading-33.jpg>-->
+<!-- NO img element --> <!-- instead of img element, there will be the last source with the minimum dimensions -->
+<!--</picture>-->
+<!--<a href="https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">&#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now!</a>-->
+<!--<a href="https://learn.2iim.com/learn/2IIM-CAT-Scholarship-2020?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">Upto 50% off - Take the Scholarship test now!</a>-->
+<!--Signup and Sample 9 full classes for Free. Register now!-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=Track-signup-->
+<script>
+    function copyCouponCode() {
+        // Get the coupon code text
+        const couponCode = document.getElementById("couponCode").textContent;
+
+        // Copy the text to the clipboard
+        navigator.clipboard.writeText(couponCode).then(() => {
+            alert("Coupon code copied: " + couponCode);
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+    }
+</script>
+
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAvM49cENMi4iGOt_2-P7yUjLujYOgsDXc",
+        authDomain: "flame-tracker-2.firebaseapp.com",
+        projectId: "flame-tracker-2",
+        storageBucket: "flame-tracker-2.firebasestorage.app",
+        messagingSenderId: "66195899961",
+        appId: "1:66195899961:web:37de6662e15173cb2cefe8",
+        measurementId: "G-KD3F3PVN48"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    // Select all elements with class "sponsor-button"
+    const buttons = document.querySelectorAll(".sponsor-button");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", (e) => {
+            e.preventDefault(); // Stop immediate navigation
+
+            // Log the click event to Firebase Analytics
+            logEvent(analytics, "right_nav_button_click_second", {
+                label: "Flame Sponsor Button"
+            });
+
+            console.log("Button clicked!");
+
+            // Navigate after a short delay so Firebase can log
+            const link = button.querySelector("a").href;
+            setTimeout(() => {
+                window.open(link, "_blank"); // Opens in a new tab
+            }, 200);
+        });
+    });
+</script>
+             </div>
+             <div class="group section"> <div class="col span_1_of_2"> <p class="nomargin text-center"><a ga-event-action=Piverb ga-event-category="Ad Click" ga-on="click,auxclick,contextmenu" href="https://piverb.com/" rel="noopener" target="_blank"> <img src="/figa/piverb.png" alt="PiVerb" class="responsive"></a></p></div> <div class="col span_1_of_2"> <p class="nomargin text-center"><a href="https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml" rel="noopener" target="_blank"> <img src="/figa/wizako.png" alt="Wizako" class="responsive">
+</a></p></div></div>
+             <!-- CAT Question Topics
+		============================================= -->
+<div style=padding:10px;background-color:#eee;background-size:cover>
+	<h2 class=fw600>CAT Questions | CAT Quantitative Aptitude</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/hcf-lcm/>CAT Questions | HCF LCM
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factors/>CAT Questions |
+					Factors</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/remainders/>CAT Questions |
+					Remainders</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factorial/>CAT Questions |
+					Factorials</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/other/>CAT Questions | Digits</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/ratio-mixtures-averages/>CAT
+					Questions | Ratios, Mixtures, Averages</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/percents-profits/>CAT Questions |
+					Percentages, Profit Loss, SICI</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/speed-time-races/>CAT Questions |
+					Time Speed and Distance, Races</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/exponents-logarithms/>CAT Questions
+					| Logarithms & Exponents</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/pipes-cisterns-work-time/>CAT
+					Questions | Pipes Cisterns, Work Time</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/set-theory/>CAT Questions | Set
+					Theory</a></p>
+			<p><a href=/geometry/geometry-triangles/>CAT Questions | Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/co-ordinate-geometry/>CAT Questions |
+					Coordinate-Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/mensuration/>CAT Questions |
+					Mensuration</a></p>
+		</div>
+		<div class="col span_1_of_3">
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/trigonometry/>CAT Questions |
+					Trigonometry</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/linear-quadratic-equations/>CAT
+					Questions | Linear & Quadratic Equations</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/functions/>CAT Questions | Functions</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/inequalities/>CAT Questions |
+					Inequalities</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/polynomials/>CAT Questions |
+					Polynomials</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/progressions/>CAT Questions |
+					Progressions</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/permutation-probability/>CAT Questions |
+					Permutation Combination, Probability</a></p>
+		</div>
+		<div class=clear></div>
+	</div>
+	<!-- <h2 class=fw600>CAT Questions | CAT DILR</h2>
+	<div class="group section">
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_sequences/>CAT DILR | Sequencing </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_Pie_Charts/>CAT DILR | Pie Charts</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_many_graphs/>CAT DILR | Multiple Graphs</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_word_problems/>CAT DILR | Word Problems</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_line_graphs/>CAT DILR | Line Graphs</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_bar_graphs/>CAT DILR | Bar Graphs </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_grid/>CAT DILR | Grid Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_math/>CAT DILR | Math Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_visualisation/>CAT DILR | Visualization</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_other>CAT DILR | Other Patterns</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Assets/>CAT 2017 DILR Slot 2 | Assets
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Funky_Pizzeria/>CAT 2017 DILR Slot 2 |
+					Pizzeria</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Electives/>CAT 2017 DILR Slot 2 |
+					Electives</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Chessboard/>CAT 2017 DILR Slot 2 |
+					Chess</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Dorms/>CAT 2017 DILR Slot 2 |
+					Dorms</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Tea_Tasting/>CAT 2017 DILR Slot 2 |
+					Tea </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Eight_Friends/>CAT 2017 DILR Slot 2 |
+					Friends</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_CET/>CAT 2017 DILR Slot 1 | CET</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Rural_Kids_Survey/>CAT 2017 DILR Slot
+					1 | Survey</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Simple_Happiness_Index/>CAT 2017 DILR
+					Slot 1 | Happiness</a> </p>
+		</div>
+		<div class=clear></div>-->
+	</div>
+	<h2 class=fw600>CAT Questions | Verbal Ability for CAT</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/reading-comprehension/>Verbal Ability for CAT |
+					CAT Reading Comprehension </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-rearrangement/>Verbal Ability for CAT|
+					CAT Para Jumble</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-elimination/>Verbal Ability for CAT |
+					CAT Sentence Elimination </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/paragraph-completion/>Verbal Ability for CAT |
+					CAT Paragraph Completion</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/critical-reasoning/>Verbal Ability for CAT |
+					CAT Critical Reasoning</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/word-usage/>Verbal Ability for CAT | CAT Word
+					Usage </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/para-summary/>Verbal Ability for CAT| CAT Para
+					Summary</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/text-completion/>Verbal Ability for CAT | CAT
+					Text Completion </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-correction/>Verbal Ability for CAT |
+					CAT Sentence Correction</a> </p>
+		</div>
+		<div class=clear></div>
+	</div>
+</div>
+             
+         </section>
+         <div style=clear:both></div>
+         <footer class="white container" style=background-color:#190000;background-size:cover;padding-top:20px>
+    <div class="group section">
+        <div class="col span_1_of_5"> <img alt="2IIM footer logo" class=lozad data-src=/figa/footer-logo.png
+                style="border-right:3px solid #aaa;padding-right:15px" id=botlogo><noscript><img alt="2IIM Footer Logo"
+                    src=/figa/footer-logo.png></noscript> </div>
+        <div class="col span_3_of_5">
+            <p class=nomargin>2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+                2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+                country.</p>
+        </div>
+        <div class="col span_1_of_5">
+            <p> <a href=https://www.facebook.com/groups/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM Online CAT preparation Facebook Group" class=lozad data-src=/figa/svgs/facebook-1.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Facebook Group"
+                            src=/figa/svgs/instagram-icon-3d-render.png></noscript></a> 
+                            <a href=https://www.instagram.com/2iimcatpreparation/ style="background: white;
+    border-radius: 30px;
+    position: absolute;
+    width: 26px;
+    height: 26px;"
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Instagram Page" class=lozad
+                        data-src=/figa/svgs/instagram-icon-3d-render.png style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Instagram" src=/figa/svgs/twitter.svg></noscript></a> <a
+                    href=https://www.quora.com/profile/Rajesh-Balasubramanian-8 rel="noopener noreferrer"
+                    target=_blank><img alt="Rajesh Balasubramanian Quora Profile" class=lozad
+                        data-src=/figa/svgs/quora.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="Rajesh Quora" src=/figa/svgs/quora.svg></noscript></a> <a
+                    href=https://www.youtube.com/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM CAT Youtube Channel" class=lozad data-src=/figa/svgs/youtube-arrow.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Youtube Channel"
+                            src=/figa/svgs/youtube-arrow.svg></noscript></a> <a href=https://2iim.app
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Android App" class=lozad
+                        data-src=/figa/svgs/playstore.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Android App" src=/figa/svgs/playstore.svg></noscript></a> </p>
+        </div>
+    </div>
+    <hr class=nomargin>
+    <div style=clear:both></div>
+    <div class="group section">
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Online Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://2iim.com/CAT-coaching-CAT-classes/"
+                    class=footer-text>LIVE Classroom CAT classes</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com class=footer-text>CAT Online
+                    Coaching</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Quantitative-Aptitude-for-CAT-2022" class=footer-text>CAT
+                    Quantitative Aptitude Course</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Data-Interpretation-and-Logical-reasoning--DI-LR--CAT-2022"
+                    class=footer-text>CAT DILR | Logical Reasoning for CAT</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//chennai.2iim.com class=footer-text>Best CAT Coaching in
+                    Chennai</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href=//iim-cat-questions-answers.2iim.com/
+                    class=footer-text>CAT Questions</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=https://www.youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Youtube</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Question Paper</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Previous Year Papers </a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//2iim.com/studymaterial/ class=footer-text>CAT
+                    Preparation books</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>What is CAT?</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://online.2iim.com/cat-syllabus.shtml"
+                    class=footer-text>CAT Syllabus | CAT Syllabus 2026</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>CAT Exam
+                    Pattern</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>What is CAT
+                    Exam? |</a><a href=# class=footer-text> CAT Exam Eligibility</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>How to
+                    Prepare for CAT exam?</a></p>
+        </div>
+        <div class="col span_1_of_4"> <a href=//youtube.com/2iimcat rel="noopener noreferrer nofollow" target=_blank>
+                <h4 class=white>CAT Preparation | Videos</h4>
+            </a>
+            <p class=nomargin style=padding-bottom:5px><a href=//youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Online Preparation</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://youtu.be/lp3U-zvzGk8?si=bGUSpNwloEBwX_gZ"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>How to Prepare for CAT 2026</a>
+            </p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://www.youtube.com/watch?v=TMbJAD8z2PY"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Do's and
+                    Dont's</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://learn.2iim.com/learn/Live-Online-CAT-2023"
+                    class=footer-text>CAT Online Live Classes</a></p>
+        </div>
+    </div>
+</footer>
+<div style="background-color:#222;background-size:cover;padding:0 20px">
+    <div class="group section">
+        <div class="col span_1_of_2">
+            <p class=copyright>Copyrights Â© All Rights Reserved by 2IIM.com - <a href=https://www.2iim.com
+                    class=copyright rel=noopener target=_blank>A Fermat Education Initiative</a>. <br><a
+                    href=//www.2iim.com/privacy-policy.shtml class=copyright>Privacy Policy</a> | <a
+                    href=//www.2iim.com/terms-conditions.shtml class=copyright>Terms &amp; Conditions</a></p>
+            <hr class=nomargin>
+            <p class=copyright> CAT<sup>Â®</sup> (Common Admission Test) is a registered trademark of the Indian
+                Institutes of Management. This website is not endorsed or approved by IIMs.<br></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>Where is 2IIM located?</h5>
+            <p class="white p15">2IIM Online CAT Coaching<br> A Fermat Education Initiative,<br>19/43, MG Chakrapani St, <br> Sathya Garden, Saligramam, Chennai 600 093</p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>How to reach 2IIM?</h5>
+            <p class="white p15"><strong>Mobile:</strong> <a href=tel:+919962648484 class=white>(91) 99626 48484 / 94459
+                    38484</a><br> <strong>WhatsApp:</strong> <a
+                    href="https://wa.me/919962648484?text=I'm%20interested%20in%20your%20CAT%20Online%20Course"
+                    class=white rel=noopener target=_blank>WhatsApp Now</a><br> <strong>Email: </strong>info@2iim.com
+            </p>
+        </div>
+    </div>
+</div>
+<div style="background-color:#000;background-size:cover;padding:5px 20px">
+    <div class="copyright group section">
+        <div class="col span_1_of_5"> <a href=https://gmat.wizako.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GMAT Preparation</h4>
+            </a>
+            <p class=nomargin><a href=https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Preparation Online</a></p>
+            <p class=nomargin><a href=https://classes.wizako.com/gmat/gmat-coaching-classes-chennai.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gmat/ class=copyright rel=noopener
+                    target=_blank>GMAT Sample Questions</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizako class=copyright rel=noopener target=_blank>GMAT
+                    Prep Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml
+                rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GRE</h4>
+            </a>
+            <p class=nomargin><a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml class=copyright
+                    rel=noopener target=_blank>GRE Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gre/ class=copyright rel=noopener
+                    target=_blank>GRE Questions</a></p>
+            <p class=nomargin><a
+                    href=https://online.wizako.com/gre-preparation/gre-online-course-gre-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>Online GRE Coaching</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizakogre class=copyright rel=noopener target=_blank>GRE
+                    Preparation Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.ascenteducation.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">Ascent TANCET Coaching</h4>
+            </a>
+            <p class=nomargin><a href=https://online.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Classes Online</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Coaching Centres in Chennai</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/Previous_TANCET_Papers/ class=copyright
+                    rel=noopener target=_blank>TANCET Previous Year Question Papers</a></p>
+            <p class=nomargin><a href=https://questions.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Questions</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.maxtute.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Maxtute CBSE Maths Classes</h4>
+            </a>
+            <p class=nomargin><a href=https://online.maxtute.com/ class=copyright rel=noopener target=_blank>CBSE Online
+                    Classes</a></p>
+            <p class=nomargin><a
+                    href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/NCERT-solutions-class-10-maths/
+                    class=copyright rel=noopener target=_blank>NCERT Solution for Class 10 Maths</a></p>
+            <p class=nomargin><a href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/past-years-board-papers/
+                    class=copyright rel=noopener target=_blank>CBSE Sample Papers for class 10</a></p>
+            <p class=nomargin><a href=https://youtube.com/maxtute class=copyright rel=noopener target=_blank>Class 10
+                    Maths Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=http://piverb.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">PiVerb</h4>
+            </a>
+            <p class=nomargin><a href=http://piverb.com/ class=copyright rel=noopener target=_blank>Intuitive Math
+                    learning</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/piverb class=copyright rel=noopener target=_blank>School
+                    Math Videos</a></p>
+        </div>
+    </div>
+</div>
+<div class=banner id=installBanner> <button id=installBtn>Click to Browse Offline</button> </div>
+<script src="https://cdn-in.pagesense.io/js/fermateducation/a34f56cd10324361b7b10aac02551f21.js"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2KFHCS');</script>
+<!-- End Google Tag Manager -->
+     </div><!-- end wrapper -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/newjs/menumaker.js"></script>
+<script>
+    $("#cssmenu").menumaker({
+        title: "Menu",
+        format: "multitoggle"
+    });
+
+</script>
+<!-- lazy load lozad initialization -->
+<script>
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+
+</script>
+
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+
+<script>
+    //* Side Nav Drop Down Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+</script>
+<!-- Drop down button ends.-->
+<!--Workbox PWA SW registration begins below -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then(registration => {
+                    console.log('Service Worker registered! ð');
+                })
+                .catch(err => {
+                    console.log('Registration failed ð« ', err);
+                });
+        });
+    }
+
+</script>
+<!--Workbox PWA SW registration ends below -->
+<!--Workbox PWA prompt to intall app begins below -->
+<script>
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', event => {
+
+        // Prevent Chrome 67 and earlier from automatically showing the prompt
+        event.preventDefault();
+
+        // Stash the event so it can be triggered later.
+        deferredPrompt = event;
+
+        // Attach the install prompt to a user gesture
+        document.querySelector('#installBtn').addEventListener('click', event => {
+
+            // Show the prompt
+            deferredPrompt.prompt();
+
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+                .then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the A2HS prompt');
+                    } else {
+                        console.log('User dismissed the A2HS prompt');
+                    }
+                    deferredPrompt = null;
+                });
+        });
+
+        // Update UI notify the user they can add to home screen
+        document.querySelector('#installBanner').style.display = 'flex';
+    });
+
+</script>
+<!--Workbox PWA prompt to intall app ends below -->
+<!-- Popups call script begins here -->
+<script>
+    // When the user clicks on div, open the popup
+    var popup = document.getElementsByClassName("popup");
+    var popuptxt = document.getElementsByClassName("popuptext");
+    var i;
+
+    for (i = 0; i < popup.length; i++) {
+        popup[i].addEventListener("click", function() {
+            popuptxt.classList.toggle("show");
+        });
+    }
+
+</script>
+<!-- Popups call script ends here -->
+
+
+<!-- smooth scroll -->
+
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+</script>
+<!-- smooth scroll ends here -->
+
+<!-- Accordion script starts here -->
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+</script>
+<!-- Accordion script ends here and java-ssin ends here -->
+ </body>
+
+ </html>

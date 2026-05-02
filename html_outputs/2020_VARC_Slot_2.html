@@ -1,0 +1,1012 @@
+ <!doctype html> <html dir=ltr lang=en> <head> <meta charset=utf-8> <meta content="CAT 2020 VARC followed the footsteps of CAT 2019 VARC in terms of the difficulty level. It was a tough paper in itself but considering the 40-minute time constraint, it was even more challenging. In order to ace this section, the best way to prepare is to practice CAT Previous year paper. Practicing CAT 2020 question paper will help you be better prepared for the VARC section. Go ahead and solve these questions and see the detailed video solutions. " name=description> <meta content="IE=edge" http-equiv=X-UA-Compatible> <meta content="width=device-width,initial-scale=1" name=viewport> <title>CAT 2020 Question Paper VA RC CAT 2020 Slot 2, CAT 2IIM CAT 2024 online classes, CAT coaching in Chennai | 2IIM Online CAT Coaching </title> <link rel="stylesheet" href="/newcss/style-ques-critical.css" type="text/css" />
+<!-- Favicons and Apple touch icons
+    ====================================== -->
+<link rel="manifest" href="/manifest.json">    
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta content="2IIM Online CAT Coaching" name=application-name>
+<meta content="2IIM Online CAT Coaching" name=apple-mobile-web-app-title>
+<meta name="theme-color" content="#8B0000">
+<meta name="msapplication-navbutton-color" content="#8B0000">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/touch/icon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="apple-touch-icon" sizes="128x128" href="/touch/icon-128x128.png">
+<link rel="icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/touch/icon-192x192.png">
+<link rel="icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="apple-touch-icon" sizes="256x256" href="/touch/icon-256x256.png">
+<link rel="icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="apple-touch-icon" sizes="384x384" href="/touch/icon-384x384.png">
+<link rel="icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/touch/icon-512x512.png">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- styles embedded for above the fold quick load -->
+<style>
+.wrapper{padding:0 16px;}
+.container{padding:0.01em 24px;}
+#cssmenu {
+	position: relative;
+	/*top: 100px;*/
+	margin: auto;
+	}
+/*  SECTIONS - Grid System  */
+.section {clear: both;padding: 0px;margin: 0px;}
+
+/*  COLUMN SETUP  */
+.col {display: block;float:left;margin: 1% 0 1% 1.6%;}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {width: 100%;}
+.span_1_of_2 {width: 49.2%;}
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }    
+/*  GRID OF FOUR  */
+.span_4_of_4 {width: 100%;}
+.span_3_of_4 {width: 74.6%;}
+.span_2_of_4 {width: 49.2%;}
+.span_1_of_4 {width: 23.8%;}
+/*  GRID OF FIVE  */
+.span_5_of_5 {width: 100%;}
+.span_4_of_5 {width: 79.68%;}
+.span_3_of_5 {width: 59.36%;}
+.span_2_of_5 {width: 39.04%;}
+.span_1_of_5 {width: 18.72%;}
+/*  Grid System GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5, .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4, .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; }
+    #topright{display: none;}    
+    .wrapper{padding:0px;}
+    #logo{max-width:80%; height:auto;}
+    #botlogo{max-width:80%; height:auto;padding-right:0px;border-right:none;}
+}    
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .col {margin: 1% 0 1% 0%;}
+	.span_1_of_5, .span_1_of_4, .span_1_of_3, .span_1_of_2 { width:49%; }
+    .wrapper{padding:0 6px;}
+}
+@media screen and (max-width: 48rem) {
+  .container .col {
+    width: 95%;
+  }
+}
+</style>
+
+<script>
+        function loadCss(filename) {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = filename
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        function cb() {
+            loadCss('/newcss/style-ques-noncritical.css');            
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> <!--<link rel="amphtml" href="https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-VARC/index-amp.shtml">--> <link href=https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-VARC/ rel=canonical> <script type=application/ld+json> {
+             "@context": "http://schema.org",
+             "@type": "WebPage",
+             "mainEntityOfPage": "https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-VARC/",
+             "headline": "CAT Questions | CAT VA RC |  CAT VA RC 2020 Slot 2 Questions  ",
+             "datePublished": "2020-08-22T12:02:41Z",
+             "dateModified": "2020-09-10T12:02:41Z",
+             "description": "CAT questions from VA RC | Verbal Ability for CAT. Reading Comprehension for CAT. CAT Questions from VARC are available in 2IIMs free CAT Questions Online. 2IIM offers online CAT coaching for CAT and conducts CAT Coaching in Chennai. CAT questions with videos. Reading Comprehension questions for CAT, Verbal Ability questions for CAT.",
+             "author": {
+                 "@type": "Person",
+                 "name": "Rajesh Balasubramanian"
+             },
+             "publisher": {
+                 "@type": "Organization",
+                 "name": "2IIM Online CAT Coaching",
+                 "logo": {
+                     "@type": "ImageObject",
+                     "url": "https://online.2iim.com/images/dark-logo.png",
+                     "width": 180,
+                     "height": 80
+                 }
+             },
+             "image": {
+                 "@type": "ImageObject",
+                 "url": "https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-VARC/figa/19VARC_2.png",
+                 "height": 1200,
+                 "width": 627
+             },
+             "audience": {
+                 "@type": "EducationalAudience",
+                 "educationalRole": "Online CAT Coaching"
+             }
+         } </script> <script type=application/ld+json> {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement": [{
+                 "@type": "ListItem",
+                 "position": 1,
+                 "name": "HOME",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 2,
+                 "name": "ONLINE CAT COACHING",
+                 "item": "https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml"
+             }, {
+                 "@type": "ListItem",
+                 "position": 3,
+                 "name": "CAT PREP RESOURCES",
+                 "item": "https://online.2iim.com/CAT-question-paper/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 4,
+                 "name": "CAT PREPARATION APP",
+                 "item": "https://play.google.com/store/apps/details?id=com.learnyst.twoiim&hl=en_IN"
+             }, {
+                 "@type": "ListItem",
+                 "position": 5,
+                 "name": "CAT COACHING",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 6,
+                 "name": "CAT PREPARATION",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 7,
+                 "name": "HOW TO PREPARE FOR CAT EXAM",
+                 "item": "https://online.2iim.com/how-to-prepare-for-cat-exam/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 8,
+                 "name": "BLOGS/SOCIAL",
+                 "item": "https://chennai.2iim.com/"
+             }, {
+                 "@type": "ListItem",
+                 "position": 9,
+                 "name": "CONTACT",
+                 "item": "https://2iim.com/aboutus.shtml"
+             }]
+         } </script> </head> <body> <div class=wrapper> <div class="group section" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="col span_1_of_4"> <a href=//www.2iim.com> <img alt="2IIM CAT Coaching" id=logo src=/figa/2iim-logo.jpg>
+        </a>
+    </div>
+
+    <div>
+        <ul style="list-style: none;">
+            <li> <a href="https://online.2iim.com/CAT-question-paper/">2IIM CAT Question Bank</a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="col span_3_of_4" id=topright>
+        <div style="background-color:#bdb76b;padding:10px 0">
+            <h4  id="Header" class=text-center><a style="color: #000000;"
+                    href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+            </h4>
+
+        </div>
+    </div> -->
+
+</div>
+
+
+
+<div style="background-color:#ed6810;padding:10px 0; margin-top: 5px; margin-bottom: 5px;">
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+        href="https://learn.2iim.com/learn/2IIM-Scholarship-test">
+      â³All India Scholarship Test â Unlock up to 100% Scholarship.
+    </h4><br> -->
+
+   
+
+
+    <!-- <h4 style="color: #ffffff;" class=text-center><a style="color: #000000;"
+            href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml">&#x1f389;
+           ðGet Up to 100% Scholarship for CAT Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨-Enroll Now</a></h4> -->
+
+    <!-- <h4 class=text-center><a style="color: #000000;" href="https://online.2iim.com/CAT-score-calculator#">
+                &#x1f389;Effortlessly calculate your score with the 2IIM Score Calculator!&#x1f389;</a></h4>  -->
+
+</div>
+
+
+
+
+<div id=cssmenu>
+    <ul>
+        <li><a href=//online.2iim.com>Online CAT Coaching </a>
+            <ul>
+                <li> <a href=https://online.2iim.com>Visit our Website</a> </li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Coaching</a>
+            <ul>
+                <li><a href=https://chennai.2iim.com>CAT Coaching in Chennai</a> </li>
+                <li><a href=https://2iim.com/studymaterial>CAT Preparation Books</a></li>
+            </ul>
+        </li>
+        <li><a href=https://chennai.2iim.com>CAT Preparation</a>
+            <ul>
+                <li><a href=https://online.2iim.com/CAT-question-paper>CAT Previous Year Papers</a> </li>
+                <li><a href=https://iim-cat-questions-answers.2iim.com>2IIM's CAT Questions</a> </li>
+                <li><a href=https://online.2iim.com/XAT-question-paper>XAT Previous Year Papers</a> </li>
+                <li><a href=https://online.2iim.com/IIFT-question-paper>IIFT Previous Year Papers</a> </li>
+                <li> <a href=https://online.2iim.com/how-to-prepare-for-cat-exam>How to prepare for CAT exam</a>
+                    <ul>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-Quantitative-Aptitude.shtml>How
+                                to prepare for CAT Quantitative Aptitude</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-DILR.shtml>How
+                                to prepare for CAT DILR Section</a> </li>
+                        <li><a
+                                href=https://online.2iim.com/how-to-prepare-for-cat-exam/how-to-prepare-for-cat-VARC.shtml>How
+                                to prepare for CAT VARC Section</a> </li>
+                    </ul>
+                </li>
+                <li><a href=https://online.2iim.com/what-is-cat-exam.shtml>What is CAT Exam All about</a></li>
+                <li><a href=https://online.2iim.com/cat-syllabus.shtml>CAT Syllabus</a> </li>
+                <!--                <li><a href=https://online.2iim.com/youtube-cat-live-classes>CAT Online Live Classes</a></li>-->
+                <li><a href=https://gmat.wizako.com>GMAT Preparation Online</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href=https://chennai.2iim.com>Blogs / Social</a> <ul> <li><a href=https://online.2iim.com/cat-exam/blogs>2IIM CAT Preparation Blog</a> </li> <li><a href=https://www.quora.com/What-is-your-review-of-2IIM-Online-CAT-Preparation>2IIM CAT Preparation Reviews</a> </li> <li><a href=https://www.quora.com/profile/Rajesh-Balasubramanian-8>CAT Preparation Quora Answers</a> </li> <li><a href=https://www.youtube.com/2iimcat>CAT Preparation Videos</a> </li> <li><a href=https://www.facebook.com/groups/2iimcat/ >CAT Preparation Facebook Group</a></li> <li><a href=https://www.facebook.com/2iimcat/ >CAT Preparation Facebook Page</a></li> <li><a href=https://online.2iim.com/cat-exam/blogs>CAT Preparation Blogs</a> <ul> <li><a href=https://iimcat.2iim.com/ >CAT Questions Quantitative Aptitude Blog</a></li> <li><a href=https://catscores.2iim.com/ >CAT Preparation Blog</a></li></ul> </li> </ul></li> -->
+        <li><a href=https://2iim.com/aboutus.shtml>Contact </a>
+            <ul>
+                <!--                <li><a ref=https://2iim.com/aboutus.shtml>About Us</a> </li>-->
+                <!--                <li><a href=https://2iim.com/team.shtml>Our Team</a> </li>-->
+                <li><a href=https://online.2iim.com/2IIM-Results>Results</a> </li>
+                <li><a href=https://2iim.com/workforus.shtml>Work for Us</a> </li>
+            </ul>
+        </li>
+        <!--<li><a href="https://learn.2iim.com/signup/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-signup" rel="noopener nofollow noreferrer" target=_blank>Signup</a></li> <li><a href="https://learn.2iim.com/login/?utm_source=QB%26Online&utm_medium=Header&utm_campaign=Track-login" rel="noopener nofollow noreferrer" target=_blank>Login</a></li>-->
+        <li><a href="https://online.2iim.com/online-ipm.shtml" rel="noopener" target=_blank>IPMAT 2026 Coaching
+                Online</a> </li>
+    </ul>
+</div>
+
+<!--Learn from 5 time CAT 100%iler | Best CAT Online Coaching | CAT Preparation-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=headertop&utm_campaign=onlinepage -->
+
+<!-- https://learn.2iim.com/learn/account/signup?segmentId=604&segmentPath=604 --> <header class="container bg-light-orange" style=background-size:cover> <div class="group section"> <div class="col span_3_of_4"> <div style=vertical-align:middle> <h1 class="black nomargin">CAT 2020 Question Paper | CAT VA RC</h1> <h6 class=black style="margin:0 0 10px 0">CAT Question Paper | CAT Previous Year Paper</h6> </div> </div> <div class="col span_1_of_4"> <div> <p class=breadcrumb><a href=https://online.2iim.com/ >CAT Online Coaching</a> / <a href=https://online.2iim.com/CAT-question-paper/ >CAT Previous Year Paper</a> / <span class="black fw700">CAT 2020 VARC Slot 2</span> </p> </div> </div> </div> </header> <div style=clear:both></div> <section class=container> <div class="group section"> <div class="col span_4_of_5"> <p><span class=dropcap>C</span>AT 2020 VARC section was a true nightmare. It was the most taxing section of the three. With some of its questions requiring critical reasoning, the section demanded even the avid of the readers to read and reread the passages before landing on an answer. We've tried our best to present these actual questions from CAT 2020 VARC section in their least intimidating from (at least in the font), with detailed solutions in a student friendly format to test yourself and understand the importance of reading for VARC section of the <b><a href=https://online.2iim.com/what-is-cat-exam.shtml rel="noopener noreferrer" target=_blank>CAT exam</a></b>. For a curated reading list head out to <b><a href=https://online.2iim.com/cat-exam/blogs/bharaths-curated-reading-list-for-cat-exam/ rel="noopener noreferrer" target=_blank>Bharath's Reading List</a></b>. If you are planning to take CAT 2020 paper as a full fledged mock, it would help if you go back to <b><a href=https://iim-cat-questions-answers.2iim.com/ rel="noopener noreferrer" target=_blank>2IIM's CAT Question Bank</a></b> and solve questions that are not from actual CAT Question papers.</p> <ol class="ques ques1"> <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br> <br> The claims advanced here may be condensed into two assertions: [first, that visual] culture is what images, acts of seeing, and attendant intellectual, emotional, and perceptual sensibilities do to build, maintain, or transform the worlds in which people live. [And second, that the] study of visual culture is the analysis and interpretation of images and the ways of seeing (or gazes) that configure the agents, practices, conceptualities, and institutions that put images to work. . . .<br> <br> Accordingly, the study of visual culture should be characterized by several concerns. First, scholars of visual culture need to examine any and all imagery â high and low, art and nonart. . . . They must not restrict themselves to objects of a particular beauty or aesthetic value. Indeed, any kind of imagery may be found to offer up evidence of the visual construction of reality. . . .Â <br> <br> Second, the study of visual culture must scrutinize visual practice as much as images themselves, asking what images do when they are put to use. If scholars engaged in this enterprise inquire what makes an image beautiful or why this image or that constitutes a masterpiece or a work of genius, they should do so with the purpose of investigating an artistâs or a workâs contribution to the experience of beauty, taste, value, or genius. No amount of social analysis can account fully for the existence of Michelangelo or Leonardo. They were unique creators of images that changed the way their contemporaries thought and felt and have continued to shape the history of art, artists, museums, feeling, and aesthetic value. But study of the critical, artistic, and popular reception of works by such artists as Michelangelo and Leonardo can shed important light on the meaning of these artists and their works for many different people. And the history of meaning-making has a great deal to do with how scholars as well as lay audiences today understand these artists and their achievements.Â <br> <br> Third, scholars studying visual culture might properly focus their interpretative work on lifeworlds by examining images, practices, visual technologies, taste, and artistic style as constitutive of social relations. The task is to understand how artifacts contribute to the construction of a world. . . . Important methodological implications follow: ethnography and reception studies become productive forms of gathering information, since these move beyond the image as a closed and fixed meaning-event. . . .<br> <br> Fourth, scholars may learn a great deal when they scrutinize the constituents of vision, that is, the structures of perception as a physiological process as well as the epistemological frameworks informing a system of visual representation. Vision is a socially and a biologically constructed operation, depending on the design of the human body and how it engages the interpretive devices developed by a culture in order to see intelligibly. . . . Seeing . . . operates on the foundation of covenants with images that establish the conditions for meaningful visual experience.Â <br> <br> Finally, the scholar of visual culture seeks to regard images as evidence for explanation, not as epiphenomena. Â </p> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Which one of the following best describes the word âepiphenomenaâ in the last sentence of the passage?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Phenomena amenable to analysis.<br></li> <li>Phenomena supplemental to the evidence.</li> <li>Overarching collections of images.<br></li> <li>Visual phenomena of epic proportions.<br></li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>Phenomena supplemental to the evidence.</span></div> <a href=verbal-question-1.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-1.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>All of the following statements may be considered valid inferences from the passage, EXCEPT:</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>artifacts are meaningful precisely because they help to construct the meanings of the world for us.</li> <li>studying visual culture requires institutional structures without which the structures of perception cannot be analysed.</li> <li>understanding the structures of perception is an important part of understanding how visual cultures work.<br></li> <li>visual culture is not just about how we see, but also about how our visual practices can impact and change the world.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>studying visual culture requires institutional structures without which the structures of perception cannot be analysed.</span></div> <a href=verbal-question-2.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-2.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>âNo amount of social analysis can account fully for the existence of Michelangelo or Leonardo.â In light of the passage, which one of the following interpretations of this sentence is the most accurate?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Social analytical accounts of people like Michelangelo or Leonardo cannot explain their genius.</li> <li>Michelangelo or Leonardo cannot be subjected to social analysis because of their genius.</li> <li>No analyses exist of Michelangeloâs or Leonardoâs social accounts.<br></li> <li>Socially existing beings cannot be analysed, unlike the art of Michelangelo or Leonardo which can.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Social analytical accounts of people like Michelangelo or Leonardo cannot explain their genius.</span></div> <a href=verbal-question-3.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-3.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>âSeeing . . . operates on the foundation of covenants with images that establish the conditions for meaningful visual experience.â In light of the passage, which one of the following statements best conveys the meaning of this sentence?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Sight becomes a meaningful visual experience because of covenants of meaningfulness that we establish with the images we see.<br></li> <li>The way we experience sight is through images operated on by meaningful covenants.</li> <li>Images are meaningful visual experiences when they have a foundation of covenants seeing them.</li> <li>Sight as a meaningful visual experience is possible when there is a foundational condition established in images of covenants.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>Sight becomes a meaningful visual experience because of covenants of meaningfulness that we establish with the images we see.</span></div> <a href=verbal-question-4.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-4.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Which set of keywords below most closely captures the arguments of the passage?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Visual Culture, Aesthetic Value, Lay Audience, Visual Experience.</li> <li>Scholars, Social Analysis, Michelangelo and Leonardo, Interpretive Devices.</li> <li>Imagery, Visual Practices, Lifeworlds, Structures of Perception.</li> <li>Visual Construction of Reality, Work of Genius, Ethnography, Epiphenomena.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Imagery, Visual Practices, Lifeworlds, Structures of Perception.</span></div> <a href=verbal-question-5.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-5.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br> <br> 174 incidents of piracy were reported to the International Maritime Bureau last year, with Somali pirates responsible for only three. The rest ranged from the discreet theft of coils of rope in the Yellow Sea to the notoriously ferocious Nigerian gunmen attacking and hijacking oil tankers in the Gulf of Guinea, as well as armed robbery off Singapore and the Venezuelan coast and kidnapping in the Sundarbans in the Bay of Bengal. For [Dr. Peter] Lehr, an expert on modern-day piracy, the phenomenonâs history should be a source of instruction rather than entertainment, piracy past offering lessons for piracy present. . . .Â <br> <br> But . . . where does piracy begin or end? According to St Augustine, a corsair captain once told Alexander the Great that in the forceful acquisition of power and wealth at sea, the difference between an emperor and a pirate was simply one of scale. By this logic, European empire-builders were the most successful pirates of all time. A more eclectic history might have included the conquistadors, Vasco da Gama and the East India Company. But Lehr sticks to the disorganised small fry, making comparisons with the renegades of today possible.Â <br> <br> The main motive for piracy has always been a combination of need and greed. Why toil away as a starving peasant in the 16th century when a successful pirate made up to Â£4,000 on each raid? Anyone could turn to freebooting if the rewards were worth the risk . . . .<br> <br> Increased globalisation has done more to encourage piracy than suppress it. European colonialism weakened delicate balances of power, leading to an influx of opportunists on the high seas. A rise in global shipping has meant rich pickings for freebooters. Lehr writes: âIt quickly becomes clear that in those parts of the world that have not profited from globalisation and modernisation, and where abject poverty and the daily struggle for survival are still a reality, the root causes of piracy are still the same as they were a couple of hundred years ago.â . . .Â <br> <br> Modern pirate prevention has failed. After the French yacht Le Gonant was ransomed for $2 million in 2008, opportunists from all over Somalia flocked to the coast for a piece of the action. . . . A consistent rule, even today, is there are never enough warships to patrol pirate-infested waters. Such ships are costly and only solve the problem temporarily; Somali piracy is bound to return as soon as the warships are withdrawn. Robot shipping, eliminating hostages, has been proposed as a possible solution; but as Lehr points out, this will only make pirates switch their targets to smaller carriers unable to afford the technology.<br> <br> His advice isnât new. Proposals to end illegal fishing are often advanced but they are difficult to enforce. Investment in local welfare put a halt to Malaysian piracy in the 1970s, but was dependent on money somehow filtering through a corrupt bureaucracy to the poor on the periphery. Diplomatic initiatives against piracy are plagued by mutual distrust: the Russians execute pirates, while the EU and US are reluctant to capture them for fear theyâll claim asylum.Â </p> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>âA more eclectic history might have included the conquistadors, Vasco da Gama and the East India Company. But Lehr sticks to the disorganised small fry . . .â From this statement we can infer that the author believes that: </p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>colonialism should be considered an organised form of piracy.</li> <li>the disorganised piracy of today is no match for the organised piracy of the past.</li> <li>Lehr does not assign adequate blame to empire builders for their past deeds.</li> <li>Vasco da Gama and the East India Company laid the ground for modern piracy.Â  Â <br></li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>colonialism should be considered an organised form of piracy.</span></div> <a href=verbal-question-6.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-6.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>We can deduce that the author believes that piracy can best be controlled in the long run: </p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>through international cooperation in enforcing stringent deterrents.</li> <li>if we eliminate poverty and income disparities in affected regions.</li> <li>through the extensive deployment of technology to track ships and cargo.Â </li> <li>through lucrative welfare schemes to improve the lives of people in affected regions.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>if we eliminate poverty and income disparities in affected regions.</span></div> <a href=verbal-question-7.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-7.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>âWhy toil away as a starving peasant in the 16th century when a successful pirate made up to Â£4,000 on each raid?â In this sentence, the authorâs tone can best be described as being: </p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>facetious, about the hardships of peasant life in medieval England.</li> <li>ironic, about the reasons why so many took to piracy in medieval times.</li> <li>analytical, to explain the contrasts between peasant and pirate life in medieval England.</li> <li>indignant, at the scale of wealth successful pirates could amass in medieval times.Â </li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice B</b><br>ironic, about the reasons why so many took to piracy in medieval times.</span></div> <a href=verbal-question-8.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-8.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The author ascribes the rise in piracy today to all of the following factors EXCEPT:</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>the growth in international shipping with globalisation.</li> <li>colonialismâs disruption of historic ties among countries.Â </li> <li>the high rewards via ransoms for successful piracy attempts.Â </li> <li>decreased surveillance of the high seas.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>decreased surveillance of the high seas.</span></div> <a href=verbal-question-9.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-9.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br> <br> In a low-carbon world, renewable energy technologies are hot business. For investors looking to redirect funds, wind turbines and solar panels, among other technologies, seem a straightforward choice. But renewables need to be further scrutinized before being championed as forging a path toward a low-carbon future. Both the direct and indirect impacts of renewable energy must be examined to ensure that a climate-smart future does not intensify social and environmental harm. As renewable energy production requires land, water, and labor, among other inputs, it imposes costs on people and the environment. Hydropower projects, for instance, have led to community dispossession and exclusion . . . Renewable energy supply chains are also intertwined with mining, and their technologies contribute to growing levels of electronic waste . . . Furthermore, although renewable energy can be produced and distributed through small-scale, local systems, such an approach might not generate the high returns on investment needed to attract capital.<br> <br> Although an emerging sector, renewables are enmeshed in long-standing resource extraction through their dependence on minerals and metals . . . Scholars document the negative consequences of mining . . . even for mining operations that commit to socially responsible practices[:] âmany of the worldâs largest reservoirs of minerals like cobalt, copper, lithium, [and] rare earth mineralsââthe ones needed for renewable technologiesââare found in fragile states and under communities of marginalized peoples in Africa, Asia, and Latin America.â Since the demand for metals and minerals will increase substantially in a renewable-powered future . . . this intensification could exacerbate the existing consequences of extractive activities.<br> <br> Among the connections between climate change and waste, OâNeill . . . highlights that âdevices developed to reduce our carbon footprint, such as lithium batteries for hybrid and electric cars or solar panels[,] become potentially dangerous electronic waste at the end of their productive life.â The disposal of toxic waste has long perpetuated social injustice through the flows of waste to the Global South and to marginalized communities in the Global North . . .<br> <br> While renewable energy is a more recent addition to financial portfolios, investments in the sector must be considered in light of our understanding of capital accumulation. As agricultural finance reveals, the concentration of control of corporate activity facilitates profit generation. For some climate activists, the promise of renewables rests on their ability not only to reduce emissions but also to provide distributed, democratized access to energy . . . But Burke and Stephens . . . caution that ârenewable energy systems offer a possibility but not a certainty for more democratic energy futures.â Small-scale, distributed forms of energy are only highly profitable to institutional investors if control is consolidated somewhere in the financial chain. Renewable energy can be produced at the household or neighborhood level. However, such small-scale, localized production is unlikely to generate high returns for investors. For financial growth to be sustained and expanded by the renewable sector, production and trade in renewable energy technologies will need to be highly concentrated, and large asset management firms will likely drive those developments.</p> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>All of the following statements, if true, could be seen as supporting the arguments in the passage, EXCEPT:</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Marginalised people in Africa, Asia and Latin America have often been the main sufferers of corporate mineral extraction projects.<br></li> <li>The example of agricultural finance helps us to see how to concentrate corporate activity in the renewable energy sector.<br></li> <li>One reason for the perpetuation of social injustice lies in the problem of the disposal of toxic waste.<br></li> <li>The possible negative impacts of renewable energy need to be studied before it can be offered as a financial investment opportunity.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>The possible negative impacts of renewable energy need to be studied before it can be offered as a financial investment opportunity.</span></div> <a href=verbal-question-10.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-10.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Which one of the following statements, if false, could be seen as best supporting the arguments in the passage?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Renewable energy systems are not as profitable as non-renewable energy systems.<br></li> <li>Renewable energy systems are as expensive as non-renewable energy systems.</li> <li>The production and distribution of renewable energy through small-scale, local systems is not economically sustainable.</li> <li>Renewable energy systems have little or no environmental impact.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Renewable energy systems have little or no environmental impact.</span></div> <a href=verbal-question-11.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-11.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Which one of the following statements, if true, could be an accurate inference from the first paragraph of the passage? </p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>The authorâs only reservation is about the profitability of renewable energy systems.</li> <li>The author does not think renewable energy systems can be as efficient as non-renewable energy systems.<br></li> <li>The author has reservations about the consequences of non-renewable energy systems.</li> <li>The author has reservations about the consequences of renewable energy systems.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>The author has reservations about the consequences of renewable energy systems.</span></div> <a href=verbal-question-12.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-12.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Which one of the following statements best captures the main argument of the last paragraph of the passage? </p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Renewable energy systems are not democratic unless they are corporate-controlled.</li> <li>Renewable energy produced at the household or neighbourhood level is more efficient than mass-produced forms of energy.<br></li> <li>The development of the renewable energy sector is a double-edged sword.<br></li> <li>Most forms of renewable energy are not profitable investments for institutional investors.<br></li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>The development of the renewable energy sector is a double-edged sword.</span></div> <a href=verbal-question-13.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-13.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Based on the passage, we can infer that the author would be most supportive of which one of the following practices?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>The study of the coexistence of marginalised people with their environments.</li> <li>Encouragement for the development of more environment-friendly carbon-based fuels.<br></li> <li>More stringent global policies and regulations to ensure a more just system of toxic waste disposal.<br></li> <li>The localised, small-scale development of renewable energy systems.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>More stringent global policies and regulations to ensure a more just system of toxic waste disposal.</span></div> <a href=verbal-question-14.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-14.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <p align=justify>The passage below is accompanied by a set of questions. Choose the best answer to each question.<br> <br> Aggression is any behavior that is directed toward injuring, harming, or inflicting pain on another living being or group of beings. Generally, the victim(s) of aggression must wish to avoid such behavior in order for it to be considered true aggression. Aggression is also categorized according to its ultimate intent. Hostile aggression is an aggressive act that results from anger, and is intended to inflict pain or injury because of that anger. Instrumental aggression is an aggressive act that is regarded as a means to an end other than pain or injury. For example, an enemy combatant may be subjected to torture in order to extract useful intelligence, though those inflicting the torture may have no real feelings of anger or animosity toward their subject. The concept of aggression is very broad, and includes many categories of behavior (e.g., verbal aggression, street crime, child abuse, spouse abuse, group conflict, war, etc.). A number of theories and models of aggression have arisen to explain these diverse forms of behavior, and these theories/models tend to be categorized according to their specific focus. The most common system of categorization groups the various approaches to aggression into three separate areas, based upon the three key variables that are present whenever any aggressive act or set of acts is committed. The first variable is the aggressor him/herself. The second is the social situation or circumstance in which the aggressive act(s) occur. The third variable is the target or victim of aggression.<br> <br> Regarding theories and research on the aggressor, the fundamental focus is on the factors that lead an individual (or group) to commit aggressive acts. At the most basic level, some argue that aggressive urges and actions are the result of inborn, biological factors. Sigmund Freud (1930) proposed that all individuals are born with a death instinct that predisposes us to a variety of aggressive behaviors, including suicide (self directed aggression) and mental illness (possibly due to an unhealthy or unnatural suppression of aggressive urges). Other influential perspectives supporting a biological basis for aggression conclude that humans evolved with an abnormally low neural inhibition of aggressive impulses (in comparison to other species), and that humans possess a powerful instinct for property accumulation and territorialism. It is proposed that this instinct accounts for hostile behaviors ranging from minor street crime to world wars. Hormonal factors also appear to play a significant role in fostering aggressive tendencies. For example, the hormone testosterone has been shown to increase aggressive behaviors when injected into animals. Men and women convicted of violent crimes also possess significantly higher levels of testosterone than men and women convicted of non violent crimes. Numerous studies comparing different age groups, racial/ethnic groups, and cultures also indicate that men, overall, are more likely to engage in a variety of aggressive behaviors (e.g., sexual assault, aggravated assault, etc.) than women. One explanation for higher levels of aggression in men is based on the assumption that, on average, men have higher levels of testosterone than women.</p> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>â[A]n enemy combatant may be subjected to torture in order to extract useful intelligence, though those inflicting the torture may have no real feelings of anger or animosity toward their subject.â Which one of the following best explicates the larger point being made by the author here?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>In certain kinds of aggression, inflicting pain is not the objective, and is no more than a utilitarian means to achieve another end.</li> <li>When an enemy combatant refuses to reveal information, the use of torture can sometimes involve real feelings of hostility.</li> <li>Information revealed by subjecting an enemy combatant to torture is not always reliable because of the animosity involved.</li> <li>The use of torture to extract information is most effective when the torturer is not emotionally involved in the torture.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>In certain kinds of aggression, inflicting pain is not the objective, and is no more than a utilitarian means to achieve another end.</span></div> <a href=verbal-question-15.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-15.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>All of the following statements can be seen as logically implied by the arguments of the passage EXCEPT:</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Freudâs theory of aggression proposes that aggression results from the suppression of aggressive urges.</li> <li>the Freudian theory of suicide as self-inflicted aggression implies that an aggressive act need not be sought to be avoided in order for it to be considered aggression.</li> <li>a common theory of aggression is that it is the result of an abnormally low neural regulation of testosterone.</li> <li>if the alleged aggressive act is not sought to be avoided, it cannot really be considered aggression.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>a common theory of aggression is that it is the result of an abnormally low neural regulation of testosterone.</span></div> <a href=verbal-question-16.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-16.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The author identifies three essential factors according to which theories of aggression are most commonly categorised. Which of the following options is closest to the factors identified by the author?</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Extreme â Moderate â Mild.</li> <li>Hostile â Instrumental â Hormonal.</li> <li>Aggressor â Circumstances of aggression â Victim.<br></li> <li>Psychologically â Sociologically â Medically.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Aggressor â Circumstances of aggression â Victim.</span></div> <a href=verbal-question-17.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-17.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The author discusses all of the following arguments in the passage EXCEPT that:</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>aggression in most societies is kept under control through moderating the death instinct identified by Freud.<br></li> <li>the nature of aggression can vary depending on several factors, including intent.</li> <li>men in general are believed to be more hormonally driven to exhibit violence than women.</li> <li>several studies indicate that aggression may have roots in the biological condition of humanity.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice A</b><br>aggression in most societies is kept under control through moderating the death instinct identified by Freud.</span></div> <a href=verbal-question-18.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-18.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The four sentences (labelled A, B, C, D) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br> <br> A. But the attention of the layman, not surprisingly, has been captured by the atom bomb, although there is at least a chance that it may never be used again. <br> B. Of all the changes introduced by man into the household of nature, [controlled] large-scale nuclear fission is undoubtedly the most dangerous and most profound. <br> C. The danger to humanity created by the so-called peaceful uses of atomic energy may, however, be much greater. <br> D. The resultant ionizing radiation has become the most serious agent of pollution of the environment and the greatest threat to manâs survival on earth.</p> <div class="group section"> <div class="col span_3_of_4"> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>BDAC</b></span></div> <a href=verbal-question-19.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-19.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The four sentences (labelled A, B, C, D) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br> <br> A. While you might think that you see or are aware of all the changes that happen in your immediate environment, there is simply too much information for your brain to fully process everything.<br> B. Psychologists use the term âchange blindnessâ to describe this tendency of people to be blind to changes though they are in the immediate environment.<br> C. It cannot be aware of every single thing that happens in the world around you.<br> B. Sometimes big shifts happen in front of your eyes and you are not at all aware of these changes.</p> <div class="group section"> <div class="col span_3_of_4"> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>ACDB</b></span></div> <a href=verbal-question-20.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-20.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br> <br> With the Treaty of Westphalia, the papacy had been confined to ecclesiastical functions, and the doctrine of sovereign equality reigned. What political theory could then explain the origin and justify the functions of secular political order? In his Leviathan, published in 1651, three years after the Peace of Westphalia, Thomas Hobbes provided such a theory. He imagined a âstate of natureâ in the past when the absence of authority produced a âwar of all against all.â To escape such intolerable insecurity, he theorized, people delivered their rights to a sovereign power in return for the sovereignâs provision of security for all within the stateâs border. The sovereign stateâs monopoly on power was established as the only way to overcome the perpetual fear of violent death and war.</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Thomas Hobbes theorized the voluntary surrender of rights by people as essential for emergence of sovereign states.</li> <li>Thomas Hobbes theorized the emergence of sovereign states as a form of transactional governance to limit the power of the papacy.</li> <li>Thomas Hobbes theorized the emergence of sovereign states based on a transactional relationship between people and sovereign state that was necessitated by a sense of insecurity of the people.</li> <li>Thomas Hobbes theorized that sovereign states emerged out of peopleâs voluntary desire to overcome the sense of insecurity and establish the doctrine of sovereign equality.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice C</b><br>Thomas Hobbes theorized the emergence of sovereign states based on a transactional relationship between people and sovereign state that was necessitated by a sense of insecurity of the people.</span></div> <a href=verbal-question-21.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-21.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br> <br> All humans make decisions based on one or a combination of two factors. This is either intuition or information. Decisions made through intuition are usually fast, people donât even think about the problem. It is quite philosophical, meaning that someone who made a decision based on intuition will have difficulty explaining the reasoning behind it. The decision-maker would often utilize her senses in drawing conclusions, which again is based on some experience in the field of study. On the other side of the spectrum, we have decisions made based on information. These decisions are rational â it is based on facts and figures, which unfortunately also means that it can be quite slow. The decision-maker would frequently use reports, analyses, and indicators to form her conclusion. This methodology results in accurate, quantifiable decisions, meaning that a person can clearly explain the rationale behind it.</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>While decisions based on intuition can be made fast, the reasons that led to these cannot be spelt out.</li> <li>We make decisions based on intuition or information on the basis of the time available.</li> <li>It is better to make decisions based on information because it is more accurate, and the rationale behind it can be explained.</li> <li>Decisions based on intuition and information result in differentialÂ speedÂ and ability to provide aÂ rationale.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>Decisions based on intuition and information result in differentialÂ speedÂ and ability to provide aÂ rationale.</span></div> <a href=verbal-question-22.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-22.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.<br> <br> The rural-urban continuum and the heterogeneity of urban settings pose an obvious challenge to identifying urban areas and measuring urbanization rates in a consistent way within and across countries. An objective methodology for distinguishing between urban and rural areas that is based on one or two metrics with fixed thresholds may not adequately capture the wide diversity of places. A richer combination of criteria would better describe the multifaceted nature of a cityâs function and its environment, but the joint interpretation of these criteria may require an element of human judgment.</p> <div class="group section"> <div class="col span_3_of_4"> <ol class="choice choice1"> <li>Distinguishing between urban and rural areas might call for some judgement on the objective methodology being used to define a cityâs functions.Â </li> <li>The difficulty of accurately identifying urban areas means that we need to create a rich combination of criteria that can be applied to all urban areas.Â </li> <li>Current methodologies used to define urban and rural areas are no longer relevant to our being able to study trends in urbanisation.Â </li> <li>With the diversity of urban landscapes, measurable criteriaÂ for defining urban areas may needÂ to be supplemented withÂ human judgement.</li> </ol> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>Choice D</b><br>With the diversity of urban landscapes, measurable criteriaÂ for defining urban areas may needÂ to be supplemented withÂ human judgement.</span></div> <a href=verbal-question-23.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-23.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:<br> <br> A. You can observe the truth of this in every e-business model ever constructed: monopolise and protect data.<br> B. Economists and technologists believe that a new kind of capitalism is being created - different from industrial capitalism as was merchant capitalism.<br> C. In 1962, Kenneth Arrow, the guru of mainstream economics, said that in a free market economy the purpose of inventing things is to create intellectual property rights.<br> D. There is, alongside the world of monopolised information and surveillance, a different dynamic growing up: information as a social good, incapable of being owned or exploited or priced.<br> E. Yet information is abundant. Information goods are freely replicable. Once a thing is made, it can be copied and pasted infinitely. </p> <div class="group section"> <div class="col span_3_of_4"> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>B</b></span></div> <a href=verbal-question-24.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-24.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:<br><br> A. The victimâs trauma after assault rarely gets the attention that we lavish on the moment of damage that divided the survivor from a less encumbered past.<br> B. One thing we often do with narratives of sexual assault is sort their respective parties into different temporalities: it seems we are interested in perpetratorsâ futures and victimsâ pasts.<br> C. One result is that we donât have much of a vocabulary for what happens in a victimâs life after the painful past has been excavated, even when our shared language gestures toward the future, as the term âsurvivorâ does.<br> D. Even the most charitable questions asked about the victims seem to focus on the past, in pursuit of understanding or of corroboration of painful details.<br> E. As more and more stories of sexual assault have been made public in the last two years, the genre of their telling has exploded --- crimes have a tendency to become not just stories but genres. </p> <div class="group section"> <div class="col span_3_of_4"> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>D</b></span></div> <a href=verbal-question-25.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-25.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> <li> <h4>CAT 2020 Question Paper Slot 2</h4> <p>The four sentences (labelled A, B, C, D) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:<br> <br> A. It also has four movable auxiliary telescopes 1.8 m in diameter.<br> B. Completed in 2006, the Very Large Telescope (VLT) has four reflecting telescopes, 8.2 m in diameter that can observe objects 4 billion times weaker than can normally be seen with the naked eye.<br> C. This configuration enables one to distinguish an astronaut on the Moon.<br> D. When these are combined with the large telescopes, they produce what is called interferometry: a simulation of the power of a mirror 16 m in diameter and the resolution of a telescope of 200 m.</p> <div class="group section"> <div class="col span_3_of_4"> </div> <div class="col span_1_of_4"> <div class=btn-group> <div class=tooltip><button class=button style=padding-top:12px;padding-bottom:13px>Correct Answer</button><span class=tooltiptext><b>BADC</b></span></div> <a href=verbal-question-26.shtml><button class=button>Video Solution</button></a> <a href=verbal-question-26.shtml><button class=button>Explanation</button></a> </div> </div> </div> <hr> </li> </ol> </div> <!-- Add this in the <head> section of your HTML file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="col span_1_of_5">
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+     <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-Scholarship-test">â³All India Scholarship Test â Unlock up to 100% Scholarship.</a>
+        </h6> 
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-Scholarship-test"
+                class="reverse w3-button" rel=noopener target=_blank> â Take the test now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all">â° Last 24 Hours! Get up to 30% Discount â April Month-End Sale (April 27â30)</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat?categoryCustomName=cat&type=100&show=all"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+
+    <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://forms.gle/MAJ2GaoR9zUvoAWy7">â³Register for a free 2IIM demo class and start your
+                preparation the right way.</a>
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://forms.gle/MAJ2GaoR9zUvoAWy7" class="reverse w3-button" rel=noopener
+                target=_blank> â Click here!</a>
+        </p>
+    </div>
+
+
+
+    <div id="flame-button"
+        style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px; overflow: hidden; max-width: 100%;">
+        <a
+            href="https://www.flame.edu.in/register/pg/mba/2026/2iim/?utm_source=2IIM&utm_medium=Weblink&utm_campaign=AY2026-PG-MBA-LP">
+            <img src="https://iim-cat-questions-answers.2iim.com/images/2iim-sponcor.jpg" alt="sponsor"
+                style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+    <!-- <div style="border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/online-ipm.shtml">Best Indore IPM &amp; Rohtak IPM Coaching<br />Signup
+                and
+                sample 9
+                full classes for free. Register now!</a>
+        </h6>
+        <p style="text-align: center; margin-top: 8px; margin-bottom: 0"></p>
+        <p class="text-center">
+            <a href="https://online.2iim.com/online-ipm.shtml" class="reverse w3-button" rel="noopener"
+                target="_blank">â
+                Signup now</a>
+        </p>
+    </div> -->
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml"> ðGet Up to 100% Scholarship for CAT
+                Preparation
+                ð Scholarship Test on January 11<sup>th</sup>â¨
+        </h6>
+
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/2iim-CAT-scholarship-test.shtml" class="reverse w3-button"
+                rel=noopener target=_blank> â Enroll Now!</a>
+
+        </p>
+    </div> -->
+
+    <!-- <div id="Catright-nav" style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025">&#x1f389; Enrol for the 2IIM GDPI course and avail an exclusive discount.</a>
+        </h6>
+       
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM-GD-PI-WAT---CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Click here!</a>
+        </p>
+    </div> -->
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025">Master Algebra this weekend â Boost your Quant Percentile ð. ð Sep 13â14 | Online Workshop | â¹1499
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://learn.2iim.com/learn/2IIM---Algebra-workshop-CAT-2025"
+                class="reverse w3-button" rel=noopener target=_blank> â Enroll Now!</a>
+        </p>
+    </div> -->
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"> ð¯ CAT VIJAY PATH Step onto the path of victory with up to â¹20,000 OFF on our CAT courses. ð¥ Offer valid till 18th May.</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a
+                href="https://learn.2iim.com/learn/categories/cat-2025?show=all&type=100&categoryCustomName=cat-2025"
+                class="reverse w3-button" rel=noopener target=_blank>Check here!</a></p>
+    </div> -->
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px">
+        <h6 class="text-center fw600"><a href="https://online.2iim.com/CAT-question-paper-pdf/">Download comprehensive
+                PDFs of past yearsâ question papers with answers.</a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://online.2iim.com/CAT-question-paper-pdf/" class="reverse w3-button"
+                rel=noopener target=_blank>â Click here</a></p>
+    </div>
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform">Repeating
+                CAT? Ace it with <span style="color: red;">2</span>IIM! Get expert guidance & exclusive discounts.
+                ð</a></h6>
+        <p class=text-center><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfjfFkt1L-syGJ4OLSgDdIuGQK26HHKYvjgfVVTUX5P-evDpA/viewform"
+                class="reverse w3-button" rel=noopener target=_blank>â Register Now</a></p>
+    </div> -->
+
+
+    <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:15px;background-color: #FFFF00">
+        <h6 class="text-center fw600">
+            <a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604">Best CAT Online Coaching
+                <br>
+                Try upto 40 hours for free <br> Learn from the best!</a>
+        </h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0></p>
+        <p class=text-center><a href="https://2iim.learnyst.com/learn/account/signup?segment=604&path=604"
+                class="reverse w3-button" rel=noopener target=_blank> â Sign up Now!</a>
+        </p>
+    </div>
+
+
+
+
+
+
+    <!-- <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://www.welingkar.org/pgdm/?utm_source=2IIM&utm_medium=Banner"><img alt="Welingkar"
+            data-src="https://online.2iim.com/figa/welingkar.png" class="lozad responsive"><noscript><img
+                alt="Welingkar" src=https://online.2iim.com/figa/welingkar.png></noscript>
+    </a> -->
+
+
+
+
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage">CAT
+                Coaching in Chennai<br>CAT 2024</h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Classroom Batches Starting Now! @Gopalapuram and @Anna
+            nagar</p>
+        <p class=text-center><a
+                href="https://chennai.2iim.com/?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=chennaipage"
+                class="reverse w3-button" rel=noopener target=_blank>â CAT Coaching</a></p>
+    </div> -->
+    <!-- <div style="border:1px solid #ccc;border-radius:5px;margin-bottom:20px">
+        <h6 class="text-center fw600"> <a href=//chennai.2iim.com>Best CAT Coaching in Chennai<br></a></h6>
+        <p style=text-align:center;margin-top:8px;margin-bottom:0>Attend a Demo Class</p>
+        <p class=text-center><a href="https://fermat.viewpage.co/Classroom-Demo" class="reverse w3-button" rel=noopener
+                target=_blank>â Schedule a Demo!</a></p>
+    </div> -->
+
+</div>
+<!-- <img alt="2IIM CAT Online Coaching Classes" data-src="https://online.2iim.com/figa/joey-results.png" class="lozad responsive"><noscript><img alt="2IIM CAT Online Coaching Classes" src=https://online.2iim.com/figa/joey-results.png></noscript>-->
+<!-- <img src="/figa/loading.jpg" alt="Loading" class="responsive">-->
+<!-- <picture class=lozad data-alt="GMAT Online Course Content" data-iesrc=/figa/loading.jpg style=display:block;min-height:1rem;float:left;vertical-align:top;margin-right:20px> <source media="(min-width: 900px)" srcset=/figa/loading.jpg> <source media="(min-width: 480px)" srcset=/figa/loading.jpg> <source media="(min-width: 320px)" srcset=/figa/loading-33.jpg>-->
+<!-- NO img element --> <!-- instead of img element, there will be the last source with the minimum dimensions -->
+<!--</picture>-->
+<!--<a href="https://online.2iim.com/cat-exam-preparation-online-cat-coaching.shtml?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">&#x1F3AF; Huge Discount: 5,000 off on Online CAT Course. Till June 30. Register now!</a>-->
+<!--<a href="https://learn.2iim.com/learn/2IIM-CAT-Scholarship-2020?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=onlinepage">Upto 50% off - Take the Scholarship test now!</a>-->
+<!--Signup and Sample 9 full classes for Free. Register now!-->
+<!-- https://learn.2iim.com/learn/account/signup?utm_source=QB%26Online&utm_medium=rightnav&utm_campaign=Track-signup-->
+<script>
+    function copyCouponCode() {
+        // Get the coupon code text
+        const couponCode = document.getElementById("couponCode").textContent;
+
+        // Copy the text to the clipboard
+        navigator.clipboard.writeText(couponCode).then(() => {
+            alert("Coupon code copied: " + couponCode);
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+    }
+</script>
+
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+    import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAvM49cENMi4iGOt_2-P7yUjLujYOgsDXc",
+        authDomain: "flame-tracker-2.firebaseapp.com",
+        projectId: "flame-tracker-2",
+        storageBucket: "flame-tracker-2.firebasestorage.app",
+        messagingSenderId: "66195899961",
+        appId: "1:66195899961:web:37de6662e15173cb2cefe8",
+        measurementId: "G-KD3F3PVN48"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    // Select all elements with class "sponsor-button"
+    const buttons = document.querySelectorAll(".sponsor-button");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", (e) => {
+            e.preventDefault(); // Stop immediate navigation
+
+            // Log the click event to Firebase Analytics
+            logEvent(analytics, "right_nav_button_click_second", {
+                label: "Flame Sponsor Button"
+            });
+
+            console.log("Button clicked!");
+
+            // Navigate after a short delay so Firebase can log
+            const link = button.querySelector("a").href;
+            setTimeout(() => {
+                window.open(link, "_blank"); // Opens in a new tab
+            }, 200);
+        });
+    });
+</script> </div> <div class="group section"> <div class="col span_1_of_2"> <p class="nomargin text-center"><a ga-event-action=Piverb ga-event-category="Ad Click" ga-on="click,auxclick,contextmenu" href="https://piverb.com/" rel="noopener" target="_blank"> <img src="/figa/piverb.png" alt="PiVerb" class="responsive"></a></p></div> <div class="col span_1_of_2"> <p class="nomargin text-center"><a href="https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml" rel="noopener" target="_blank"> <img src="/figa/wizako.png" alt="Wizako" class="responsive">
+</a></p></div></div> <!-- CAT Question Topics
+		============================================= -->
+<div style=padding:10px;background-color:#eee;background-size:cover>
+	<h2 class=fw600>CAT Questions | CAT Quantitative Aptitude</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/hcf-lcm/>CAT Questions | HCF LCM
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factors/>CAT Questions |
+					Factors</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/remainders/>CAT Questions |
+					Remainders</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/factorial/>CAT Questions |
+					Factorials</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/number-system/other/>CAT Questions | Digits</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/ratio-mixtures-averages/>CAT
+					Questions | Ratios, Mixtures, Averages</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/percents-profits/>CAT Questions |
+					Percentages, Profit Loss, SICI</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/speed-time-races/>CAT Questions |
+					Time Speed and Distance, Races</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/exponents-logarithms/>CAT Questions
+					| Logarithms & Exponents</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/pipes-cisterns-work-time/>CAT
+					Questions | Pipes Cisterns, Work Time</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/arithmetic/set-theory/>CAT Questions | Set
+					Theory</a></p>
+			<p><a href=/geometry/geometry-triangles/>CAT Questions | Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/co-ordinate-geometry/>CAT Questions |
+					Coordinate-Geometry</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/mensuration/>CAT Questions |
+					Mensuration</a></p>
+		</div>
+		<div class="col span_1_of_3">
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/geometry/trigonometry/>CAT Questions |
+					Trigonometry</a></p>
+			<p> <a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/linear-quadratic-equations/>CAT
+					Questions | Linear & Quadratic Equations</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/functions/>CAT Questions | Functions</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/inequalities/>CAT Questions |
+					Inequalities</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/polynomials/>CAT Questions |
+					Polynomials</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/algebra/progressions/>CAT Questions |
+					Progressions</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/quant/permutation-probability/>CAT Questions |
+					Permutation Combination, Probability</a></p>
+		</div>
+		<div class=clear></div>
+	</div>
+	<!-- <h2 class=fw600>CAT Questions | CAT DILR</h2>
+	<div class="group section">
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_sequences/>CAT DILR | Sequencing </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_Pie_Charts/>CAT DILR | Pie Charts</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_many_graphs/>CAT DILR | Multiple Graphs</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_word_problems/>CAT DILR | Word Problems</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_line_graphs/>CAT DILR | Line Graphs</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DI_bar_graphs/>CAT DILR | Bar Graphs </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_grid/>CAT DILR | Grid Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_math/>CAT DILR | Math Puzzle</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_visualisation/>CAT DILR | Visualization</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/LR_other>CAT DILR | Other Patterns</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Assets/>CAT 2017 DILR Slot 2 | Assets
+				</a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Funky_Pizzeria/>CAT 2017 DILR Slot 2 |
+					Pizzeria</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Electives/>CAT 2017 DILR Slot 2 |
+					Electives</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Chessboard/>CAT 2017 DILR Slot 2 |
+					Chess</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Dorms/>CAT 2017 DILR Slot 2 |
+					Dorms</a> </p>
+		</div>
+		<div class="col span_1_of_4">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Tea_Tasting/>CAT 2017 DILR Slot 2 |
+					Tea </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-2_Eight_Friends/>CAT 2017 DILR Slot 2 |
+					Friends</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_CET/>CAT 2017 DILR Slot 1 | CET</a>
+			</p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Rural_Kids_Survey/>CAT 2017 DILR Slot
+					1 | Survey</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/DILR_CAT-2017-1_Simple_Happiness_Index/>CAT 2017 DILR
+					Slot 1 | Happiness</a> </p>
+		</div>
+		<div class=clear></div>-->
+	</div>
+	<h2 class=fw600>CAT Questions | Verbal Ability for CAT</h2>
+	<div class="group section">
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/reading-comprehension/>Verbal Ability for CAT |
+					CAT Reading Comprehension </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-rearrangement/>Verbal Ability for CAT|
+					CAT Para Jumble</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-elimination/>Verbal Ability for CAT |
+					CAT Sentence Elimination </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/paragraph-completion/>Verbal Ability for CAT |
+					CAT Paragraph Completion</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/critical-reasoning/>Verbal Ability for CAT |
+					CAT Critical Reasoning</a> </p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/word-usage/>Verbal Ability for CAT | CAT Word
+					Usage </a></p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/para-summary/>Verbal Ability for CAT| CAT Para
+					Summary</a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/text-completion/>Verbal Ability for CAT | CAT
+					Text Completion </a> </p>
+			<p><a href=https://iim-cat-questions-answers.2iim.com/verbal/sentence-correction/>Verbal Ability for CAT |
+					CAT Sentence Correction</a> </p>
+		</div>
+		<div class=clear></div>
+	</div>
+</div>  </section> <div style=clear:both></div> <footer class="white container" style=background-color:#190000;background-size:cover;padding-top:20px>
+    <div class="group section">
+        <div class="col span_1_of_5"> <img alt="2IIM footer logo" class=lozad data-src=/figa/footer-logo.png
+                style="border-right:3px solid #aaa;padding-right:15px" id=botlogo><noscript><img alt="2IIM Footer Logo"
+                    src=/figa/footer-logo.png></noscript> </div>
+        <div class="col span_3_of_5">
+            <p class=nomargin>2IIM offers the best CAT coaching in Chennai. We conduct weekend CAT classes in Chennai.
+                2IIM's Online CAT Coaching is the most comprehensive & Best CAT Online Coaching available in the
+                country.</p>
+        </div>
+        <div class="col span_1_of_5">
+            <p> <a href=https://www.facebook.com/groups/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM Online CAT preparation Facebook Group" class=lozad data-src=/figa/svgs/facebook-1.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Facebook Group"
+                            src=/figa/svgs/instagram-icon-3d-render.png></noscript></a> 
+                            <a href=https://www.instagram.com/2iimcatpreparation/ style="background: white;
+    border-radius: 30px;
+    position: absolute;
+    width: 26px;
+    height: 26px;"
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Instagram Page" class=lozad
+                        data-src=/figa/svgs/instagram-icon-3d-render.png style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Instagram" src=/figa/svgs/twitter.svg></noscript></a> <a
+                    href=https://www.quora.com/profile/Rajesh-Balasubramanian-8 rel="noopener noreferrer"
+                    target=_blank><img alt="Rajesh Balasubramanian Quora Profile" class=lozad
+                        data-src=/figa/svgs/quora.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="Rajesh Quora" src=/figa/svgs/quora.svg></noscript></a> <a
+                    href=https://www.youtube.com/2iimcat rel="noopener noreferrer" target=_blank> <img
+                        alt="2IIM CAT Youtube Channel" class=lozad data-src=/figa/svgs/youtube-arrow.svg
+                        style=margin-right:5px height=25 width=25><noscript><img alt="2IIM Youtube Channel"
+                            src=/figa/svgs/youtube-arrow.svg></noscript></a> <a href=https://2iim.app
+                    rel="noopener noreferrer" target=_blank> <img alt="2IIM CAT Android App" class=lozad
+                        data-src=/figa/svgs/playstore.svg style=margin-right:5px height=25 width=25><noscript><img
+                            alt="2IIM Android App" src=/figa/svgs/playstore.svg></noscript></a> </p>
+        </div>
+    </div>
+    <hr class=nomargin>
+    <div style=clear:both></div>
+    <div class="group section">
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Online Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://2iim.com/CAT-coaching-CAT-classes/"
+                    class=footer-text>LIVE Classroom CAT classes</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com class=footer-text>CAT Online
+                    Coaching</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Quantitative-Aptitude-for-CAT-2022" class=footer-text>CAT
+                    Quantitative Aptitude Course</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://learn.2iim.com/learn/Data-Interpretation-and-Logical-reasoning--DI-LR--CAT-2022"
+                    class=footer-text>CAT DILR | Logical Reasoning for CAT</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//chennai.2iim.com class=footer-text>Best CAT Coaching in
+                    Chennai</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>CAT Preparation</h4>
+            <p class=nomargin style=padding-bottom:5px><a href=//iim-cat-questions-answers.2iim.com/
+                    class=footer-text>CAT Questions</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=https://www.youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Youtube</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Question Paper</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//online.2iim.com/CAT-question-paper/
+                    class=footer-text>CAT Previous Year Papers </a></p>
+            <p class=nomargin style=padding-bottom:5px><a href=//2iim.com/studymaterial/ class=footer-text>CAT
+                    Preparation books</a></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h4 class=white>What is CAT?</h4>
+            <p class=nomargin style=padding-bottom:5px><a href="https://online.2iim.com/cat-syllabus.shtml"
+                    class=footer-text>CAT Syllabus | CAT Syllabus 2026</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>CAT Exam
+                    Pattern</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>What is CAT
+                    Exam? |</a><a href=# class=footer-text> CAT Exam Eligibility</a></p>
+            <p class=nomargin style=padding-bottom:5px><a
+                    href="https://online.2iim.com/how-to-prepare-for-cat-exam/index.shtml" class=footer-text>How to
+                    Prepare for CAT exam?</a></p>
+        </div>
+        <div class="col span_1_of_4"> <a href=//youtube.com/2iimcat rel="noopener noreferrer nofollow" target=_blank>
+                <h4 class=white>CAT Preparation | Videos</h4>
+            </a>
+            <p class=nomargin style=padding-bottom:5px><a href=//youtube.com/2iimcat class=footer-text
+                    rel="noopener noreferrer nofollow" target=_blank>CAT Online Preparation</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://youtu.be/lp3U-zvzGk8?si=bGUSpNwloEBwX_gZ"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>How to Prepare for CAT 2026</a>
+            </p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://www.youtube.com/watch?v=TMbJAD8z2PY"
+                    class=footer-text rel="noopener noreferrer nofollow" target=_blank>CAT Preparation Do's and
+                    Dont's</a></p>
+            <p class=nomargin style=padding-bottom:5px><a href="https://learn.2iim.com/learn/Live-Online-CAT-2023"
+                    class=footer-text>CAT Online Live Classes</a></p>
+        </div>
+    </div>
+</footer>
+<div style="background-color:#222;background-size:cover;padding:0 20px">
+    <div class="group section">
+        <div class="col span_1_of_2">
+            <p class=copyright>Copyrights Â© All Rights Reserved by 2IIM.com - <a href=https://www.2iim.com
+                    class=copyright rel=noopener target=_blank>A Fermat Education Initiative</a>. <br><a
+                    href=//www.2iim.com/privacy-policy.shtml class=copyright>Privacy Policy</a> | <a
+                    href=//www.2iim.com/terms-conditions.shtml class=copyright>Terms &amp; Conditions</a></p>
+            <hr class=nomargin>
+            <p class=copyright> CAT<sup>Â®</sup> (Common Admission Test) is a registered trademark of the Indian
+                Institutes of Management. This website is not endorsed or approved by IIMs.<br></p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>Where is 2IIM located?</h5>
+            <p class="white p15">2IIM Online CAT Coaching<br> A Fermat Education Initiative,<br>19/43, MG Chakrapani St, <br> Sathya Garden, Saligramam, Chennai 600 093</p>
+        </div>
+        <div class="col span_1_of_4">
+            <h5 class=white>How to reach 2IIM?</h5>
+            <p class="white p15"><strong>Mobile:</strong> <a href=tel:+919962648484 class=white>(91) 99626 48484 / 94459
+                    38484</a><br> <strong>WhatsApp:</strong> <a
+                    href="https://wa.me/919962648484?text=I'm%20interested%20in%20your%20CAT%20Online%20Course"
+                    class=white rel=noopener target=_blank>WhatsApp Now</a><br> <strong>Email: </strong>info@2iim.com
+            </p>
+        </div>
+    </div>
+</div>
+<div style="background-color:#000;background-size:cover;padding:5px 20px">
+    <div class="copyright group section">
+        <div class="col span_1_of_5"> <a href=https://gmat.wizako.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GMAT Preparation</h4>
+            </a>
+            <p class=nomargin><a href=https://gmat.wizako.com/gmat-online-course-gmat-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Preparation Online</a></p>
+            <p class=nomargin><a href=https://classes.wizako.com/gmat/gmat-coaching-classes-chennai.shtml
+                    class=copyright rel=noopener target=_blank>GMAT Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gmat/ class=copyright rel=noopener
+                    target=_blank>GMAT Sample Questions</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizako class=copyright rel=noopener target=_blank>GMAT
+                    Prep Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml
+                rel=noopener target=_blank>
+                <h4 class="nomargin white">Wizako GRE</h4>
+            </a>
+            <p class=nomargin><a href=https://classes.wizako.com/gre/gre-coaching-classes-chennai.shtml class=copyright
+                    rel=noopener target=_blank>GRE Coaching in Chennai</a></p>
+            <p class=nomargin><a href=https://practice-questions.wizako.com/gre/ class=copyright rel=noopener
+                    target=_blank>GRE Questions</a></p>
+            <p class=nomargin><a
+                    href=https://online.wizako.com/gre-preparation/gre-online-course-gre-online-coaching-classes.shtml
+                    class=copyright rel=noopener target=_blank>Online GRE Coaching</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/wizakogre class=copyright rel=noopener target=_blank>GRE
+                    Preparation Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.ascenteducation.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">Ascent TANCET Coaching</h4>
+            </a>
+            <p class=nomargin><a href=https://online.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Classes Online</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Coaching Centres in Chennai</a></p>
+            <p class=nomargin><a href=https://tancet.ascenteducation.com/Previous_TANCET_Papers/ class=copyright
+                    rel=noopener target=_blank>TANCET Previous Year Question Papers</a></p>
+            <p class=nomargin><a href=https://questions.ascenteducation.com/ class=copyright rel=noopener
+                    target=_blank>TANCET Questions</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=https://www.maxtute.com rel=noopener target=_blank>
+                <h4 class="nomargin white">Maxtute CBSE Maths Classes</h4>
+            </a>
+            <p class=nomargin><a href=https://online.maxtute.com/ class=copyright rel=noopener target=_blank>CBSE Online
+                    Classes</a></p>
+            <p class=nomargin><a
+                    href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/NCERT-solutions-class-10-maths/
+                    class=copyright rel=noopener target=_blank>NCERT Solution for Class 10 Maths</a></p>
+            <p class=nomargin><a href=https://practice-questions.maxtute.com/CBSE-Class-10-Math/past-years-board-papers/
+                    class=copyright rel=noopener target=_blank>CBSE Sample Papers for class 10</a></p>
+            <p class=nomargin><a href=https://youtube.com/maxtute class=copyright rel=noopener target=_blank>Class 10
+                    Maths Videos</a></p>
+        </div>
+        <div class="col span_1_of_5"> <a href=http://piverb.com/ rel=noopener target=_blank>
+                <h4 class="nomargin white">PiVerb</h4>
+            </a>
+            <p class=nomargin><a href=http://piverb.com/ class=copyright rel=noopener target=_blank>Intuitive Math
+                    learning</a></p>
+            <p class=nomargin><a href=https://www.youtube.com/piverb class=copyright rel=noopener target=_blank>School
+                    Math Videos</a></p>
+        </div>
+    </div>
+</div>
+<div class=banner id=installBanner> <button id=installBtn>Click to Browse Offline</button> </div>
+<script src="https://cdn-in.pagesense.io/js/fermateducation/a34f56cd10324361b7b10aac02551f21.js"></script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T2KFHCS');</script>
+<!-- End Google Tag Manager --> </div><!-- end wrapper --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/newjs/menumaker.js"></script>
+<script>
+    $("#cssmenu").menumaker({
+        title: "Menu",
+        format: "multitoggle"
+    });
+
+</script>
+<!-- lazy load lozad initialization -->
+<script>
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+
+</script>
+
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+
+<script>
+    //* Side Nav Drop Down Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+</script>
+<!-- Drop down button ends.-->
+<!--Workbox PWA SW registration begins below -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then(registration => {
+                    console.log('Service Worker registered! ð');
+                })
+                .catch(err => {
+                    console.log('Registration failed ð« ', err);
+                });
+        });
+    }
+
+</script>
+<!--Workbox PWA SW registration ends below -->
+<!--Workbox PWA prompt to intall app begins below -->
+<script>
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', event => {
+
+        // Prevent Chrome 67 and earlier from automatically showing the prompt
+        event.preventDefault();
+
+        // Stash the event so it can be triggered later.
+        deferredPrompt = event;
+
+        // Attach the install prompt to a user gesture
+        document.querySelector('#installBtn').addEventListener('click', event => {
+
+            // Show the prompt
+            deferredPrompt.prompt();
+
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+                .then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the A2HS prompt');
+                    } else {
+                        console.log('User dismissed the A2HS prompt');
+                    }
+                    deferredPrompt = null;
+                });
+        });
+
+        // Update UI notify the user they can add to home screen
+        document.querySelector('#installBanner').style.display = 'flex';
+    });
+
+</script>
+<!--Workbox PWA prompt to intall app ends below -->
+<!-- Popups call script begins here -->
+<script>
+    // When the user clicks on div, open the popup
+    var popup = document.getElementsByClassName("popup");
+    var popuptxt = document.getElementsByClassName("popuptext");
+    var i;
+
+    for (i = 0; i < popup.length; i++) {
+        popup[i].addEventListener("click", function() {
+            popuptxt.classList.toggle("show");
+        });
+    }
+
+</script>
+<!-- Popups call script ends here -->
+
+
+<!-- smooth scroll -->
+
+<script>
+    $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+</script>
+<!-- smooth scroll ends here -->
+
+<!-- Accordion script starts here -->
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active1");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+</script>
+<!-- Accordion script ends here and java-ssin ends here --> 
